@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/176_08-02_tde-2-alberi-11.c -o <build-temporanea>/793.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/793.o -lm -o <build-temporanea>/793.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

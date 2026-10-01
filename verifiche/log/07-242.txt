@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/242_15-02_es-5-chat-4.c -o <build-temporanea>/522.o
+
+[Compilazione]
+esercizi/07-liste/242_15-02_es-5-chat-4.c:220:23: warning: unused parameter 'count' [-Wunused-parameter]
+  220 | void f(lista *L, int *count)
+      |                       ^
+1 warning generated.
+
+$ cc <build-temporanea>/522.o -lm -o <build-temporanea>/522.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

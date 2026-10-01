@@ -1,0 +1,111 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c -o <build-temporanea>/104.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:12:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   12 | int main(){
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:14:20: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     char M1[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:14:52: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     char M1[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:14:84: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     char M1[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:14:116: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     char M1[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:14:148: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     char M1[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:14:180: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     char M1[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:14:212: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     char M1[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:14:244: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     char M1[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:15:20: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |     char M2[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:15:52: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |     char M2[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:15:84: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |     char M2[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:15:116: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |     char M2[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:15:148: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |     char M2[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:15:180: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |     char M2[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:15:212: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |     char M2[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:15:244: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |     char M2[N][N]={'B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:16:20: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |     char M3[N][N]={'B','C','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:16:52: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |     char M3[N][N]={'B','C','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:16:84: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |     char M3[N][N]={'B','C','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:16:116: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |     char M3[N][N]={'B','C','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:16:148: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |     char M3[N][N]={'B','C','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:16:180: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |     char M3[N][N]={'B','C','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:16:212: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |     char M3[N][N]={'B','C','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                                                    {                              }
+esercizi/02-array-e-matrici/060_25-02_es-12-25-feb.c:16:244: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |     char M3[N][N]={'B','C','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B','B','W','B','W','B','W','B','W','W','B','W','B','W','B','W','B',};
+      |                                                                                                                                                                                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                                                                                    {                              }
+25 warnings generated.
+
+$ cc <build-temporanea>/104.o -lm -o <build-temporanea>/104.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

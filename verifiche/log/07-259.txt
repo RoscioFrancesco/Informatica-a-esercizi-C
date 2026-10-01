@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/259_16-02_es-6-chat-3.c -o <build-temporanea>/539.o
+
+[Compilazione]
+esercizi/07-liste/259_16-02_es-6-chat-3.c:130:22: warning: format specifies type 'void *' but the argument has type 'Lista' (aka 'struct nodo *') [-Wformat-pedantic]
+  130 |     printf("\n%p\n", L);
+      |               ~~     ^
+esercizi/07-liste/259_16-02_es-6-chat-3.c:131:22: warning: format specifies type 'void *' but the argument has type 'Lista *' (aka 'struct nodo **') [-Wformat-pedantic]
+  131 |     printf("\n%p\n", &L);
+      |               ~~     ^~
+2 warnings generated.
+
+$ cc <build-temporanea>/539.o -lm -o <build-temporanea>/539.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

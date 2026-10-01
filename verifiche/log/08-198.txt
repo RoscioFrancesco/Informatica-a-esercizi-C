@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/198_10-02_tde-4-alberi-9.c -o <build-temporanea>/815.o
+
+[Compilazione]
+esercizi/08-alberi/198_10-02_tde-4-alberi-9.c:30:12: warning: unused function 'esisteCamminoDecrescente_aux' [-Wunused-function]
+   30 | static int esisteCamminoDecrescente_aux(tree T, int prev, int hasPrev);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/815.o -lm -o <build-temporanea>/815.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

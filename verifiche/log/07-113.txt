@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/113_04-02_chat-lista-es-6-15.c -o <build-temporanea>/393.o
+
+[Compilazione]
+esercizi/07-liste/113_04-02_chat-lista-es-6-15.c:99:31: warning: unused parameter 'A' [-Wunused-parameter]
+   99 | ListaCompressa comprimi(Lista A) {
+      |                               ^
+1 warning generated.
+
+$ cc <build-temporanea>/393.o -lm -o <build-temporanea>/393.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

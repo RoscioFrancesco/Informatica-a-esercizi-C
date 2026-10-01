@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/118_04-02_tde-carta-folding-2-0-15.c -o <build-temporanea>/398.o
+
+[Compilazione]
+esercizi/07-liste/118_04-02_tde-carta-folding-2-0-15.c:52:13: warning: unused function 'freeLista' [-Wunused-function]
+   52 | static void freeLista(lista l) {
+      |             ^~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/398.o -lm -o <build-temporanea>/398.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

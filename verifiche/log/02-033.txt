@@ -1,0 +1,47 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/033_08-11_esercitaz.c -o <build-temporanea>/77.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:31:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   31 | int main(){
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:34:18: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   34 |     int M[N][N]={1,4,6,8,9,3,2,6,
+      |                  ^~~~~~~~~~~~~~~
+      |                  {              }
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:35:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   35 |         4,7,2,4,1,8,1,1,
+      |         ^~~~~~~~~~~~~~~
+      |         {              }
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:36:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   36 |         5,7,3,9,1,2,0,3,
+      |         ^~~~~~~~~~~~~~~
+      |         {              }
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:37:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   37 |         3,7,7,5,5,3,8,0,
+      |         ^~~~~~~~~~~~~~~
+      |         {              }
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:38:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   38 |         2,1,5,5,7,3,5,7,
+      |         ^~~~~~~~~~~~~~~
+      |         {              }
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:39:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   39 |         2,4,9,3,7,5,8,9,
+      |         ^~~~~~~~~~~~~~~
+      |         {              }
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:40:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   40 |         3,5,7,8,9,5,7,8,
+      |         ^~~~~~~~~~~~~~~
+      |         {              }
+esercizi/02-array-e-matrici/033_08-11_esercitaz.c:41:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   41 |         1,2,6,4,8,9,9,0};
+      |         ^~~~~~~~~~~~~~~
+      |         {              }
+9 warnings generated.
+
+$ cc <build-temporanea>/77.o -lm -o <build-temporanea>/77.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

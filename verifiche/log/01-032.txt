@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/032_02-10_divisori-comuni.c -o <build-temporanea>/31.o
+
+[Compilazione]
+esercizi/01-fondamenti/032_02-10_divisori-comuni.c:11:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   11 | int main() {
+      |         ^
+      |          void
+esercizi/01-fondamenti/032_02-10_divisori-comuni.c:12:17: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+   12 |     int v1, v2, max, min, i;
+      |                 ^
+2 warnings generated.
+
+$ cc <build-temporanea>/31.o -lm -o <build-temporanea>/31.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

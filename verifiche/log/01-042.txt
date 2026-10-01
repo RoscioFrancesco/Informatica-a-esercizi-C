@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/042_27-10_numeri-primi-esercitazione.c -o <build-temporanea>/41.o
+
+[Compilazione]
+esercizi/01-fondamenti/042_27-10_numeri-primi-esercitazione.c:9:24: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+    9 | int leggiNumeroNaturale();
+      |                        ^
+      |                         void
+esercizi/01-fondamenti/042_27-10_numeri-primi-esercitazione.c:12:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   12 | int main() {
+      |         ^
+      |          void
+esercizi/01-fondamenti/042_27-10_numeri-primi-esercitazione.c:26:24: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   26 | int leggiNumeroNaturale()
+      |                        ^
+      |                         void
+3 warnings generated.
+
+$ cc <build-temporanea>/41.o -lm -o <build-temporanea>/41.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

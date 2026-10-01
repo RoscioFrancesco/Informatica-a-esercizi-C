@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/001_23-11_aggiungi-nodo-in-coda.c -o <build-temporanea>/278.o
+
+[Compilazione]
+esercizi/07-liste/001_23-11_aggiungi-nodo-in-coda.c:16:27: warning: extra ';' outside of a function [-Wextra-semi]
+   16 | void stampalista(Nodo *l);;
+      |                           ^
+esercizi/07-liste/001_23-11_aggiungi-nodo-in-coda.c:18:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   18 | int main() {
+      |         ^
+      |          void
+2 warnings generated.
+
+$ cc <build-temporanea>/278.o -lm -o <build-temporanea>/278.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/195_12-02_tde-1-liste-7.c -o <build-temporanea>/475.o
+
+[Compilazione]
+esercizi/07-liste/195_12-02_tde-1-liste-7.c:104:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  104 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/475.o -lm -o <build-temporanea>/475.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

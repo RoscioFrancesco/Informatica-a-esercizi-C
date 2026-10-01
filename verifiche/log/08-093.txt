@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/093_29-01_alberi-es-13b.c -o <build-temporanea>/710.o
+
+[Compilazione]
+esercizi/08-alberi/093_29-01_alberi-es-13b.c:34:13: warning: function 'tree_free' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+   34 | static void tree_free(Tree t) {
+      |             ^~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/710.o -lm -o <build-temporanea>/710.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

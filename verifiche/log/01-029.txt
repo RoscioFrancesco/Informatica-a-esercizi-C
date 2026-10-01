@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/029_01-10_stampa-tabella-ascii.c -o <build-temporanea>/28.o
+
+[Compilazione]
+esercizi/01-fondamenti/029_01-10_stampa-tabella-ascii.c:10:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   10 | int main() {
+      |         ^
+      |          void
+esercizi/01-fondamenti/029_01-10_stampa-tabella-ascii.c:11:10: warning: unused variable 'x' [-Wunused-variable]
+   11 |     char x;
+      |          ^
+2 warnings generated.
+
+$ cc <build-temporanea>/28.o -lm -o <build-temporanea>/28.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

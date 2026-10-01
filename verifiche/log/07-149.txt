@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/149_08-02_tde-4-liste-11.c -o <build-temporanea>/429.o
+
+[Compilazione]
+esercizi/07-liste/149_08-02_tde-4-liste-11.c:48:12: warning: unused function 'cmpData' [-Wunused-function]
+   48 | static int cmpData(Data a, Data b) {
+      |            ^~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/429.o -lm -o <build-temporanea>/429.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,39 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/031_07-11_tde-conti.c -o <build-temporanea>/75.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/031_07-11_tde-conti.c:20:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | int main()
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/031_07-11_tde-conti.c:24:20: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   24 |     int M[N][N] = {3, 3, 5, 3, 5, 6, 7, 5, 5, 6, 2, 1, 3, 6, 9, 4};
+      |                    ^~~~~~~~~~
+      |                    {         }
+esercizi/02-array-e-matrici/031_07-11_tde-conti.c:24:32: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   24 |     int M[N][N] = {3, 3, 5, 3, 5, 6, 7, 5, 5, 6, 2, 1, 3, 6, 9, 4};
+      |                                ^~~~~~~~~~
+      |                                {         }
+esercizi/02-array-e-matrici/031_07-11_tde-conti.c:24:44: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   24 |     int M[N][N] = {3, 3, 5, 3, 5, 6, 7, 5, 5, 6, 2, 1, 3, 6, 9, 4};
+      |                                            ^~~~~~~~~~
+      |                                            {         }
+esercizi/02-array-e-matrici/031_07-11_tde-conti.c:24:56: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   24 |     int M[N][N] = {3, 3, 5, 3, 5, 6, 7, 5, 5, 6, 2, 1, 3, 6, 9, 4};
+      |                                                        ^~~~~~~~~~
+      |                                                        {         }
+esercizi/02-array-e-matrici/031_07-11_tde-conti.c:96:16: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+   96 |             if(fabs(mat[i][j]-utente_value)<=delta)
+      |                ^
+esercizi/02-array-e-matrici/031_07-11_tde-conti.c:96:16: note: use function 'abs' instead
+   96 |             if(fabs(mat[i][j]-utente_value)<=delta)
+      |                ^~~~
+      |                abs
+esercizi/02-array-e-matrici/031_07-11_tde-conti.c:96:16: note: include the header <stdlib.h> or explicitly provide a declaration for 'abs'
+6 warnings generated.
+
+$ cc <build-temporanea>/75.o -lm -o <build-temporanea>/75.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

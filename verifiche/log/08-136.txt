@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/136_02-02_albero-chat-albero-4b-17.c -o <build-temporanea>/753.o
+
+[Compilazione]
+esercizi/08-alberi/136_02-02_albero-chat-albero-4b-17.c:229:11: warning: unused variable 'scorri' [-Wunused-variable]
+  229 |     Lista scorri=head;
+      |           ^~~~~~
+esercizi/08-alberi/136_02-02_albero-chat-albero-4b-17.c:37:14: warning: unused function 'newListNode' [-Wunused-function]
+   37 | static List* newListNode(int v, List* next) {
+      |              ^~~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/753.o -lm -o <build-temporanea>/753.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

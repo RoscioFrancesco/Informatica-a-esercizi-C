@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/320_07-03_es-16-7mz.c -o <build-temporanea>/600.o
+
+[Compilazione]
+esercizi/07-liste/320_07-03_es-16-7mz.c:32:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   32 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/320_07-03_es-16-7mz.c:65:27: warning: unused parameter 'len' [-Wunused-parameter]
+   65 | void gira(int vett[], int len ,int start, int end)
+      |                           ^
+2 warnings generated.
+
+$ cc <build-temporanea>/600.o -lm -o <build-temporanea>/600.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

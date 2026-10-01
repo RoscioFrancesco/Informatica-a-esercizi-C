@@ -1,0 +1,21 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/056_24-02_es-5.c -o <build-temporanea>/255.o
+
+[Compilazione]
+esercizi/06-struct-e-file/056_24-02_es-5.c:25:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   25 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/056_24-02_es-5.c:27:11: warning: unused variable 's' [-Wunused-variable]
+   27 |     cella s[N][N];
+      |           ^
+esercizi/06-struct-e-file/056_24-02_es-5.c:28:10: warning: unused variable 'vincitore' [-Wunused-variable]
+   28 |     char vincitore;
+      |          ^~~~~~~~~
+3 warnings generated.
+
+$ cc <build-temporanea>/255.o -lm -o <build-temporanea>/255.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

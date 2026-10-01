@@ -1,0 +1,341 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/105_03-02_liste-4-16.c -o <build-temporanea>/385.o
+
+[Compilazione]
+esercizi/07-liste/105_03-02_liste-4-16.c:86:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   86 |       if(lis==NULL) return;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:86:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   86 |       if(lis==NULL) return;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:86:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   86 |       if(lis==NULL) return;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:86:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   86 |       if(lis==NULL) return;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:86:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   86 |       if(lis==NULL) return;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:86:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   86 |       if(lis==NULL) return;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:87:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   87 |       f2(lis->next, si, no);
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:87:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   87 |       f2(lis->next, si, no);
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:87:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   87 |       f2(lis->next, si, no);
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:87:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   87 |       f2(lis->next, si, no);
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:87:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   87 |       f2(lis->next, si, no);
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:87:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   87 |       f2(lis->next, si, no);
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:89:5: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   89 |       if(contieneCifra(lis->word))
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:89:8: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   89 |       if(contieneCifra(lis->word))
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:19: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |       ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:22: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |        ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:25: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |         ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:28: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |          ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:31: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |           ^
+esercizi/07-liste/105_03-02_liste-4-16.c:91:34: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   91 |             lis->next = *si;
+      |            ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:19: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |       ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:22: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |        ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:25: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |         ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:28: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |          ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:31: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |           ^
+esercizi/07-liste/105_03-02_liste-4-16.c:92:34: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   92 |             *si=lis;
+      |            ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:19: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |       ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:22: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |        ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:25: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |         ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:28: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |          ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:31: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |           ^
+esercizi/07-liste/105_03-02_liste-4-16.c:93:34: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   93 |             return;
+      |            ^
+esercizi/07-liste/105_03-02_liste-4-16.c:94:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   94 |          }
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:94:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   94 |          }
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:94:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   94 |          }
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:94:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   94 |          }
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:94:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   94 |          }
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:94:19: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   94 |          }
+      |         ^
+esercizi/07-liste/105_03-02_liste-4-16.c:95:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   95 |       
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:95:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   95 |       
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:95:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   95 |       
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:95:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   95 |       
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:95:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   95 |       
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:95:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   95 |       
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:96:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   96 |       lis->next = *no;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:96:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   96 |       lis->next = *no;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:96:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   96 |       lis->next = *no;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:96:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   96 |       lis->next = *no;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:96:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   96 |       lis->next = *no;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:96:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   96 |       lis->next = *no;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:97:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   97 |       *no = lis;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:97:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   97 |       *no = lis;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:97:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   97 |       *no = lis;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:97:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   97 |       *no = lis;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:97:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   97 |       *no = lis;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:97:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   97 |       *no = lis;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:98:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   98 |       return;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:98:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   98 |       return;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:98:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   98 |       return;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:98:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   98 |       return;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:98:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   98 |       return;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:98:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+   98 |       return;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:102:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  102 |       Lista si=NULL, no=NULL;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:102:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  102 |       Lista si=NULL, no=NULL;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:102:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  102 |       Lista si=NULL, no=NULL;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:102:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  102 |       Lista si=NULL, no=NULL;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:102:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  102 |       Lista si=NULL, no=NULL;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:102:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  102 |       Lista si=NULL, no=NULL;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:103:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  103 |       f2(head, &si, &no);
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:103:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  103 |       f2(head, &si, &no);
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:103:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  103 |       f2(head, &si, &no);
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:103:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  103 |       f2(head, &si, &no);
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:103:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  103 |       f2(head, &si, &no);
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:103:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  103 |       f2(head, &si, &no);
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:104:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  104 |       Partizione p;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:104:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  104 |       Partizione p;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:104:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  104 |       Partizione p;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:104:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  104 |       Partizione p;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:104:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  104 |       Partizione p;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:104:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  104 |       Partizione p;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:105:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  105 |       p.no=no; p.yes=si;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:105:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  105 |       p.no=no; p.yes=si;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:105:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  105 |       p.no=no; p.yes=si;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:105:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  105 |       p.no=no; p.yes=si;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:105:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  105 |       p.no=no; p.yes=si;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:105:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  105 |       p.no=no; p.yes=si;
+      |      ^
+esercizi/07-liste/105_03-02_liste-4-16.c:106:1: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  106 |       return p;
+      | ^
+esercizi/07-liste/105_03-02_liste-4-16.c:106:4: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  106 |       return p;
+      |  ^
+esercizi/07-liste/105_03-02_liste-4-16.c:106:7: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  106 |       return p;
+      |   ^
+esercizi/07-liste/105_03-02_liste-4-16.c:106:10: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  106 |       return p;
+      |    ^
+esercizi/07-liste/105_03-02_liste-4-16.c:106:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  106 |       return p;
+      |     ^
+esercizi/07-liste/105_03-02_liste-4-16.c:106:16: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  106 |       return p;
+      |      ^
+110 warnings generated.
+
+$ cc <build-temporanea>/385.o -lm -o <build-temporanea>/385.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

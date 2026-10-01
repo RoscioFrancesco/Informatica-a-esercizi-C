@@ -1,0 +1,26 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/011_02-12_es-1-lab-list2.c -o <build-temporanea>/288.o
+
+[Compilazione]
+esercizi/07-liste/011_02-12_es-1-lab-list2.c:44:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   44 | lista costruisci();
+      |                 ^
+      |                  void
+esercizi/07-liste/011_02-12_es-1-lab-list2.c:50:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   50 | int main(){
+      |         ^
+      |          void
+esercizi/07-liste/011_02-12_es-1-lab-list2.c:88:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   88 | lista costruisci(){
+      |                 ^
+      |                  void
+esercizi/07-liste/011_02-12_es-1-lab-list2.c:136:41: warning: unused parameter 'lista2' [-Wunused-parameter]
+  136 | lista funzione_iter(lista lista1, lista lista2)
+      |                                         ^
+4 warnings generated.
+
+$ cc <build-temporanea>/288.o -lm -o <build-temporanea>/288.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

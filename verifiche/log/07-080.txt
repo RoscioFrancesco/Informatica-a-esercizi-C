@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/080_01-02_albero-chat-es2-liste-18.c -o <build-temporanea>/360.o
+
+[Compilazione]
+esercizi/07-liste/080_01-02_albero-chat-es2-liste-18.c:172:5: warning: void function 'blocco' should not return void expression [-Wpedantic]
+  172 |     return blocco(start, finish);
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/360.o -lm -o <build-temporanea>/360.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

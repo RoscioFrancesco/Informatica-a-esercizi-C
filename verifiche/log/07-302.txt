@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/302_03-03_void-in-coda-3mz.c -o <build-temporanea>/582.o
+
+[Compilazione]
+esercizi/07-liste/302_03-03_void-in-coda-3mz.c:19:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/582.o -lm -o <build-temporanea>/582.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/132_02-02_10b-17.c -o <build-temporanea>/749.o
+
+[Compilazione]
+esercizi/08-alberi/132_02-02_10b-17.c:46:13: warning: function 'printInorder' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+   46 | static void printInorder(Albero t) {
+      |             ^~~~~~~~~~~~
+esercizi/08-alberi/132_02-02_10b-17.c:74:13: warning: unused function 'printPathsWithParity' [-Wunused-function]
+   74 | static void printPathsWithParity(Albero t) {
+      |             ^~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/749.o -lm -o <build-temporanea>/749.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

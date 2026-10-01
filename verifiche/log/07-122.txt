@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/122_04-02_tde-carta-tde-3-liste-15.c -o <build-temporanea>/402.o
+
+[Compilazione]
+esercizi/07-liste/122_04-02_tde-carta-tde-3-liste-15.c:131:18: warning: unused variable 'A' [-Wunused-variable]
+  131 |     Degustazioni A = newDeg("Deg-A", (Data){10, 1, 2016}, birreA, NULL);
+      |                  ^
+esercizi/07-liste/122_04-02_tde-carta-tde-3-liste-15.c:136:18: warning: unused variable 'B' [-Wunused-variable]
+  136 |     Degustazioni B = newDeg("Deg-B", (Data){20, 1, 2016}, birreB, NULL);
+      |                  ^
+esercizi/07-liste/122_04-02_tde-carta-tde-3-liste-15.c:141:18: warning: unused variable 'C' [-Wunused-variable]
+  141 |     Degustazioni C = newDeg("Deg-C", (Data){5, 2, 2016}, birreC, NULL);
+      |                  ^
+esercizi/07-liste/122_04-02_tde-carta-tde-3-liste-15.c:146:18: warning: unused variable 'Dd' [-Wunused-variable]
+  146 |     Degustazioni Dd = newDeg("Deg-D", (Data){15, 1, 2015}, birreD, NULL);
+      |                  ^~
+4 warnings generated.
+
+$ cc <build-temporanea>/402.o -lm -o <build-temporanea>/402.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

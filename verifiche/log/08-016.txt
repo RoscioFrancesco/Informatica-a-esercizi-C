@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/016_14-12_albero-isobato-smart.c -o <build-temporanea>/633.o
+
+[Compilazione]
+esercizi/08-alberi/016_14-12_albero-isobato-smart.c:19:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | albero creaAlbero();
+      |                  ^
+      |                   void
+esercizi/08-alberi/016_14-12_albero-isobato-smart.c:30:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   30 | int main(){
+      |         ^
+      |          void
+esercizi/08-alberi/016_14-12_albero-isobato-smart.c:40:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   40 | albero creaAlbero() {
+      |                  ^
+      |                   void
+3 warnings generated.
+
+$ cc <build-temporanea>/633.o -lm -o <build-temporanea>/633.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,55 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c -o <build-temporanea>/164.o
+
+[Compilazione]
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:50:10: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   50 | int main () {
+      |          ^
+      |           void
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:52:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   52 |             'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:53:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   53 |             'p', ' ', 'M', ' ', ' ', ' ', 'M', ' ', ' ', 'M',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:54:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   54 |             'M', ' ', 'M', ' ', 'M', ' ', ' ', ' ', ' ', 'M',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:55:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   55 |             'M', ' ', 'M', ' ', 'M', 'M', 'M', ' ', 'M', 'M',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:56:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   56 |             'M', ' ', 'M', ' ', 'M', ' ', ' ', ' ', ' ', 'M',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:57:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   57 |             'M', ' ', ' ', ' ', 'M', ' ', 'M', 'M', 'M', 'M',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:58:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   58 |             'M', 'M', 'M', ' ', 'M', ' ', ' ', 'M', ' ', 'u',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:59:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   59 |             'M', ' ', ' ', ' ', 'M', ' ', ' ', 'M', ' ', 'M',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:60:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   60 |             'M', ' ', ' ', ' ', 'M', ' ', ' ', ' ', ' ', 'M',
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+esercizi/04-ricorsione-e-backtracking/001_15-11_labirinto-magri.c:61:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   61 |             'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             {                                               }
+11 warnings generated.
+
+$ cc <build-temporanea>/164.o -lm -o <build-temporanea>/164.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

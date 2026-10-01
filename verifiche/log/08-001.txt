@@ -1,0 +1,29 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/001_29-11_albero-conteggio-nodi.c -o <build-temporanea>/618.o
+
+[Compilazione]
+esercizi/08-alberi/001_29-11_albero-conteggio-nodi.c:19:23: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | Tree creaAlberoEsempio();
+      |                       ^
+      |                        void
+esercizi/08-alberi/001_29-11_albero-conteggio-nodi.c:37:23: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   37 | Tree creaAlberoEsempio() {
+      |                       ^
+      |                        void
+esercizi/08-alberi/001_29-11_albero-conteggio-nodi.c:63:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   63 | int main() {
+      |         ^
+      |          void
+esercizi/08-alberi/001_29-11_albero-conteggio-nodi.c:84:20: warning: format specifies type 'void *' but the argument has type 'Tree' (aka 'struct El *') [-Wformat-pedantic]
+   84 |     printf("%p\n", posizione);
+      |             ~~     ^~~~~~~~~
+esercizi/08-alberi/001_29-11_albero-conteggio-nodi.c:85:20: warning: format specifies type 'void *' but the argument has type 'Tree' (aka 'struct El *') [-Wformat-pedantic]
+   85 |     printf("%p\n", root);
+      |             ~~     ^~~~
+5 warnings generated.
+
+$ cc <build-temporanea>/618.o -lm -o <build-temporanea>/618.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

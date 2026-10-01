@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/108_30-01_alberi-max-in-mezzo.c -o <build-temporanea>/725.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/725.o -lm -o <build-temporanea>/725.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

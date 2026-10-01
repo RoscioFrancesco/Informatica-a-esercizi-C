@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/001_04-10_array-es4.c -o <build-temporanea>/45.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/001_04-10_array-es4.c:9:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+    9 | int main() {
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/001_04-10_array-es4.c:39:47: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+   39 |     printf("L'indirizzo del massimo è %d\n", &vet[posizmax]);
+      |                                       ~~     ^~~~~~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/45.o -lm -o <build-temporanea>/45.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

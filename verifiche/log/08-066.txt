@@ -1,0 +1,55 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c -o <build-temporanea>/683.o
+
+[Compilazione]
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:27:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | Tree costruisci1();
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:28:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | Tree costruisci2();
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:29:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   29 | Tree costruisci3();
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:30:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   30 | Tree costruisci4();
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:31:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   31 | Tree costruisci5();
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:40:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   40 | int main(){
+      |         ^
+      |          void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:86:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   86 | Tree costruisci1(){Tree r=nN("GG",0);r->left=nN("CC",50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->left->right=nN("AA",90);r->right->left=nN("GG",30);r->right->right=nN("BB",20);return r;}
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:87:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   87 | Tree costruisci2(){Tree r=nN("GG",0);r->left=nN("CC",50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->left->right=nN("AA",90);r->right->left=nN("GG",30);r->right->right = nN("BB",50);return r;}
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:88:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   88 | Tree costruisci3(){Tree r=nN("GG",0);r->left=nN("CC",50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->right->left=nN("GG",30);r->right->right=nN("BB",20);return r;}
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:89:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   89 | Tree costruisci4(){Tree r=nN("GG",0);r->left=nN("CC", 50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->left->right=nN("AA",90);r->right->left=nN("GG",30);r->right->right=nN("BB",20);r->right->right->right=nN("BB",50);r->right->right->left=nN("DD",10);return r;}
+      |                 ^
+      |                  void
+esercizi/08-alberi/066_25-01_tde-gen-alberi-2.c:90:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   90 | Tree costruisci5(){Tree r=nN("GG",0);r->left=nN("CC",50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->left->right=nN("AA",90);r->right->left=nN("HH",30);r->right->right=nN("BB",20);return r;}
+      |                 ^
+      |                  void
+11 warnings generated.
+
+$ cc <build-temporanea>/683.o -lm -o <build-temporanea>/683.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

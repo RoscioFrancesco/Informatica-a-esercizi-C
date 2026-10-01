@@ -1,0 +1,21 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/018_12-10_unione-di-arrya.c -o <build-temporanea>/62.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/018_12-10_unione-di-arrya.c:13:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   13 | int main() {
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/018_12-10_unione-di-arrya.c:14:88: warning: unused variable 'j' [-Wunused-variable]
+   14 |     int v1[nmax], v2[nmax], v3[nmax*2], i, n1, n2, counter3, i1, i2, flag, v4[nmax*2], j, i4, k, z;
+      |                                                                                        ^
+esercizi/02-array-e-matrici/018_12-10_unione-di-arrya.c:14:95: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+   14 |     int v1[nmax], v2[nmax], v3[nmax*2], i, n1, n2, counter3, i1, i2, flag, v4[nmax*2], j, i4, k, z;
+      |                                                                                               ^
+3 warnings generated.
+
+$ cc <build-temporanea>/62.o -lm -o <build-temporanea>/62.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

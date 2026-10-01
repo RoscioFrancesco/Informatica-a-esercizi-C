@@ -1,0 +1,47 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c -o <build-temporanea>/651.o
+
+[Compilazione]
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:26:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   26 | Albero costruisci1();
+      |                   ^
+      |                    void
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:27:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | Albero costruisci2();
+      |                   ^
+      |                    void
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:28:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | Albero costruisci3();
+      |                   ^
+      |                    void
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:29:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   29 | Albero costruisci4();
+      |                   ^
+      |                    void
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:35:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   35 | int main() {
+      |         ^
+      |          void
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:107:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  107 | Albero costruisci1() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:121:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  121 | Albero costruisci2() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:138:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  138 | Albero costruisci3() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/034_19-01_giorno-8-tde-4-alberi.c:157:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  157 | Albero costruisci4() {
+      |                   ^
+      |                    void
+9 warnings generated.
+
+$ cc <build-temporanea>/651.o -lm -o <build-temporanea>/651.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

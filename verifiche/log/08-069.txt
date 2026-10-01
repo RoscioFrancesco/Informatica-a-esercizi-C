@@ -1,0 +1,42 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/069_26-01_ancora-alberi-2.c -o <build-temporanea>/686.o
+
+[Compilazione]
+esercizi/08-alberi/069_26-01_ancora-alberi-2.c:21:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | albero creaAlbero1();albero creaAlbero2();albero creaAlbero3();
+      |                   ^
+      |                    void
+esercizi/08-alberi/069_26-01_ancora-alberi-2.c:21:40: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | albero creaAlbero1();albero creaAlbero2();albero creaAlbero3();
+      |                                        ^
+      |                                         void
+esercizi/08-alberi/069_26-01_ancora-alberi-2.c:21:61: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | albero creaAlbero1();albero creaAlbero2();albero creaAlbero3();
+      |                                                             ^
+      |                                                              void
+esercizi/08-alberi/069_26-01_ancora-alberi-2.c:26:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   26 | int main(){
+      |         ^
+      |          void
+esercizi/08-alberi/069_26-01_ancora-alberi-2.c:27:9: warning: unused variable 'ris' [-Wunused-variable]
+   27 |     int ris=0;
+      |         ^~~
+esercizi/08-alberi/069_26-01_ancora-alberi-2.c:51:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   51 | albero creaAlbero1() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/069_26-01_ancora-alberi-2.c:60:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   60 | albero creaAlbero2() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/069_26-01_ancora-alberi-2.c:69:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   69 | albero creaAlbero3() {
+      |                   ^
+      |                    void
+8 warnings generated.
+
+$ cc <build-temporanea>/686.o -lm -o <build-temporanea>/686.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

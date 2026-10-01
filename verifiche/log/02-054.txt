@@ -1,0 +1,95 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/054_24-02_es-6.c -o <build-temporanea>/98.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/054_24-02_es-6.c:15:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   15 | int main(){
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/054_24-02_es-6.c:17:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   17 |     char G[N][N]={'B','R','I','S','A','T','A','B',
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   {                              }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:18:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   18 |                     'A','A','R','A','N','C','I','A',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:19:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   19 |                     'N','C','I','P','O','L','L','A',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:20:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   20 |                     'A','V','I','O','L','I','N','O',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:21:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   21 |                     'N','R','A','T','O','R','T','A',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:22:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   22 |                     'A','V','O','L','A','N','T','E',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:23:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   23 |                     'D','I','S','C','O','R','S','O',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:24:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   24 |                     'A','N','A','T','R','A','V','O'};
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:25:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   25 |     char P[M][M]={'R','I','S','A','T','A','\0','\0','\0',
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   {                                     }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:26:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   26 |               'A','R','A','N','C','I','A','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                    }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:27:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   27 |               'B','A','N','A','N','A','\0','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                     }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:28:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   28 |               'C','I','P','O','L','L','A','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                    }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:29:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   29 |               'V','I','O','L','I','N','O','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                    }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:30:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   30 |               'T','O','R','T','A','\0','\0','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                      }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:31:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   31 |               'V','O','L','A','N','T','E','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                    }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:32:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   32 |               'D','I','S','C','O','R','S','O','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                   }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:33:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   33 |               'A','N','A','T','R','A','\0','\0','\0'};
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                     }
+esercizi/02-array-e-matrici/054_24-02_es-6.c:68:19: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   68 |         if(segna+1==strlen(parola))
+      |            ~~~~~~~^ ~~~~~~~~~~~~~~
+esercizi/02-array-e-matrici/054_24-02_es-6.c:78:19: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   78 |         if(segna+1==strlen(parola))
+      |            ~~~~~~~^ ~~~~~~~~~~~~~~
+esercizi/02-array-e-matrici/054_24-02_es-6.c:129:35: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  129 |                     for(int i=0; i<strlen(parola); i++)
+      |                                  ~^~~~~~~~~~~~~~~
+esercizi/02-array-e-matrici/054_24-02_es-6.c:136:35: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  136 |                     for(int i=0; i<strlen(parola); i++)
+      |                                  ~^~~~~~~~~~~~~~~
+22 warnings generated.
+
+$ cc <build-temporanea>/98.o -lm -o <build-temporanea>/98.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

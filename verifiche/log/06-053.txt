@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/053_24-02_es-1.c -o <build-temporanea>/252.o
+
+[Compilazione]
+esercizi/06-struct-e-file/053_24-02_es-1.c:24:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   24 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/053_24-02_es-1.c:89:35: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   89 |                     for(int j=0; j<strlen(array[i].cognome); j++)
+      |                                  ~^~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/252.o -lm -o <build-temporanea>/252.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

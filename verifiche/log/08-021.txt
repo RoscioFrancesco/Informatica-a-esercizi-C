@@ -1,0 +1,45 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/021_16-01_tde-alberi.c -o <build-temporanea>/638.o
+
+[Compilazione]
+esercizi/08-alberi/021_16-01_tde-alberi.c:22:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   22 | Albero costruisci1();
+      |                   ^
+      |                    void
+esercizi/08-alberi/021_16-01_tde-alberi.c:23:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   23 | Albero costruisci2();
+      |                   ^
+      |                    void
+esercizi/08-alberi/021_16-01_tde-alberi.c:24:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   24 | Albero costruisci3();
+      |                   ^
+      |                    void
+esercizi/08-alberi/021_16-01_tde-alberi.c:29:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   29 | int main() {
+      |         ^
+      |          void
+esercizi/08-alberi/021_16-01_tde-alberi.c:30:12: warning: unused variable 't1' [-Wunused-variable]
+   30 |     Albero t1 = costruisci1();
+      |            ^~
+esercizi/08-alberi/021_16-01_tde-alberi.c:31:12: warning: unused variable 't2' [-Wunused-variable]
+   31 |     Albero t2 = costruisci2();
+      |            ^~
+esercizi/08-alberi/021_16-01_tde-alberi.c:47:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   47 | Albero costruisci1() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/021_16-01_tde-alberi.c:57:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   57 | Albero costruisci2() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/021_16-01_tde-alberi.c:67:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   67 | Albero costruisci3() {
+      |                   ^
+      |                    void
+9 warnings generated.
+
+$ cc <build-temporanea>/638.o -lm -o <build-temporanea>/638.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

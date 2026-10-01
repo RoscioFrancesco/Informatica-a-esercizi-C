@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/015_16-01_playlist.c -o <build-temporanea>/294.o
+
+[Compilazione]
+esercizi/07-liste/015_16-01_playlist.c:35:15: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   35 | Playlist* init();
+      |               ^
+      |                void
+esercizi/07-liste/015_16-01_playlist.c:44:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   44 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/015_16-01_playlist.c:54:16: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   54 | Playlist * init(){
+      |                ^
+      |                 void
+3 warnings generated.
+
+$ cc <build-temporanea>/294.o -lm -o <build-temporanea>/294.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

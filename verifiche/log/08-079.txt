@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/079_28-01_quasi-zig-zag.c -o <build-temporanea>/696.o
+
+[Compilazione]
+esercizi/08-alberi/079_28-01_quasi-zig-zag.c:84:55: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   84 |         printf("%s -> %d\n", tests[i], quasizigzag(t, tests[i]));
+      |                                                       ^~~~~~~~
+esercizi/08-alberi/079_28-01_quasi-zig-zag.c:60:30: note: passing argument to parameter 'parola' here
+   60 | int quasizigzag(Tree t, char parola[]);
+      |                              ^
+1 warning generated.
+
+$ cc <build-temporanea>/696.o -lm -o <build-temporanea>/696.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

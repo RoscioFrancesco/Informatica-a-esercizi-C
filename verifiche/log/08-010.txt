@@ -1,0 +1,39 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/010_12-12_esercitaz-alberi.c -o <build-temporanea>/627.o
+
+[Compilazione]
+esercizi/08-alberi/010_12-12_esercitaz-alberi.c:21:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | albero creaAlbero1();albero creaAlbero2();albero creaAlbero3();
+      |                   ^
+      |                    void
+esercizi/08-alberi/010_12-12_esercitaz-alberi.c:21:40: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | albero creaAlbero1();albero creaAlbero2();albero creaAlbero3();
+      |                                        ^
+      |                                         void
+esercizi/08-alberi/010_12-12_esercitaz-alberi.c:21:61: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | albero creaAlbero1();albero creaAlbero2();albero creaAlbero3();
+      |                                                             ^
+      |                                                              void
+esercizi/08-alberi/010_12-12_esercitaz-alberi.c:28:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | int main(){
+      |         ^
+      |          void
+esercizi/08-alberi/010_12-12_esercitaz-alberi.c:46:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   46 | albero creaAlbero1() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/010_12-12_esercitaz-alberi.c:56:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   56 | albero creaAlbero2() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/010_12-12_esercitaz-alberi.c:65:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   65 | albero creaAlbero3() {
+      |                   ^
+      |                    void
+7 warnings generated.
+
+$ cc <build-temporanea>/627.o -lm -o <build-temporanea>/627.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

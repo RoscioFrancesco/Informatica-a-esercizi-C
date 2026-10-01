@@ -1,0 +1,26 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/030_20-01_giorno-7-tde-3-liste.c -o <build-temporanea>/310.o
+
+[Compilazione]
+esercizi/07-liste/030_20-01_giorno-7-tde-3-liste.c:42:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   42 | ListaP costruisci();
+      |                  ^
+      |                   void
+esercizi/07-liste/030_20-01_giorno-7-tde-3-liste.c:48:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   48 | int main()
+      |         ^
+      |          void
+esercizi/07-liste/030_20-01_giorno-7-tde-3-liste.c:51:12: warning: unused variable 'temp' [-Wunused-variable]
+   51 |     ListaP temp;
+      |            ^~~~
+esercizi/07-liste/030_20-01_giorno-7-tde-3-liste.c:60:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   60 | ListaP costruisci()
+      |                  ^
+      |                   void
+4 warnings generated.
+
+$ cc <build-temporanea>/310.o -lm -o <build-temporanea>/310.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

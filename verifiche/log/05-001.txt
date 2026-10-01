@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/05-puntatori-e-memoria/001_26-10_punt-prova.c -o <build-temporanea>/176.o
+
+[Compilazione]
+esercizi/05-puntatori-e-memoria/001_26-10_punt-prova.c:11:14: warning: unused parameter 'argc' [-Wunused-parameter]
+   11 | int main(int argc, char* argv[]) {
+      |              ^
+esercizi/05-puntatori-e-memoria/001_26-10_punt-prova.c:11:26: warning: unused parameter 'argv' [-Wunused-parameter]
+   11 | int main(int argc, char* argv[]) {
+      |                          ^
+2 warnings generated.
+
+$ cc <build-temporanea>/176.o -lm -o <build-temporanea>/176.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

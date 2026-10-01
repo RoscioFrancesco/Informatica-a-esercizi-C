@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/147_08-02_tde-2-liste-11.c -o <build-temporanea>/427.o
+
+[Compilazione]
+esercizi/07-liste/147_08-02_tde-2-liste-11.c:251:9: warning: unused variable 'j' [-Wunused-variable]
+  251 |     int j=0;
+      |         ^
+1 warning generated.
+
+$ cc <build-temporanea>/427.o -lm -o <build-temporanea>/427.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

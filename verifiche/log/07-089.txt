@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/089_02-02_e2-2-17.c -o <build-temporanea>/369.o
+
+[Compilazione]
+esercizi/07-liste/089_02-02_e2-2-17.c:87:1: warning: '/*' within block comment [-Wcomment]
+   87 | /* STUB: non svolgo l’esercizio */
+      | ^
+esercizi/07-liste/089_02-02_e2-2-17.c:51:13: warning: unused function 'freeLista' [-Wunused-function]
+   51 | static void freeLista(Lista l) {
+      |             ^~~~~~~~~
+esercizi/07-liste/089_02-02_e2-2-17.c:66:12: warning: unused function 'startsWith' [-Wunused-function]
+   66 | static int startsWith(const char *s, const char *pref) {
+      |            ^~~~~~~~~~
+esercizi/07-liste/089_02-02_e2-2-17.c:76:12: warning: unused function 'strEq' [-Wunused-function]
+   76 | static int strEq(const char *a, const char *b) {
+      |            ^~~~~
+4 warnings generated.
+
+$ cc <build-temporanea>/369.o -lm -o <build-temporanea>/369.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

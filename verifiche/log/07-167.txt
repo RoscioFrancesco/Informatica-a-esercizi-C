@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/167_09-02_liste-2-pag-79-10.c -o <build-temporanea>/447.o
+
+[Compilazione]
+esercizi/07-liste/167_09-02_liste-2-pag-79-10.c:273:79: warning: unused parameter 'oggi' [-Wunused-parameter]
+  273 | void aggiornaBonus(ListaDiCartellini cartellini, ListaDiAssenze assenze, Data oggi)
+      |                                                                               ^
+1 warning generated.
+
+$ cc <build-temporanea>/447.o -lm -o <build-temporanea>/447.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,8 @@
+//
+//  magriluca.h
+//  popoli indiani
+//
+//  Created by Francesco Roscio Ricon on 05/11/25.
+//  esercitazione di magri luca popoli indiani
+
+

@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/076_31-01_liste-n6-chat.c -o <build-temporanea>/356.o
+
+[Compilazione]
+esercizi/07-liste/076_31-01_liste-n6-chat.c:82:13: warning: unused function 'firstCharCI' [-Wunused-function]
+   82 | static char firstCharCI(const char *w) {
+      |             ^~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/356.o -lm -o <build-temporanea>/356.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/180_08-02_tde-6-alberi-11.c -o <build-temporanea>/797.o
+
+[Compilazione]
+esercizi/08-alberi/180_08-02_tde-6-alberi-11.c:50:12: warning: unused function 'isFoglia' [-Wunused-function]
+   50 | static int isFoglia(tree t) {
+      |            ^~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/797.o -lm -o <build-temporanea>/797.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

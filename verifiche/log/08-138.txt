@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/138_02-02_albero-chat-albero-5b-17.c -o <build-temporanea>/755.o
+
+[Compilazione]
+esercizi/08-alberi/138_02-02_albero-chat-albero-5b-17.c:215:22: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  215 |     f(t, 1, 0, k, 0, pattern, 0, &head, NULL, 0, 0, 0, m);
+      |                      ^~~~~~~
+esercizi/08-alberi/138_02-02_albero-chat-albero-5b-17.c:130:68: note: passing argument to parameter 'parola' here
+  130 | void f(Albero t, int dir, int wildcard, int K, int numerrori, char parola[], int segna, Lista *real, Lista prova, int depth, int prev, int hasprev, int m);
+      |                                                                    ^
+esercizi/08-alberi/138_02-02_albero-chat-albero-5b-17.c:218:27: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  218 |         f(t, -1, 0, k, 0, pattern, 0, &head, NULL, 0, 0, 0, m);
+      |                           ^~~~~~~
+esercizi/08-alberi/138_02-02_albero-chat-albero-5b-17.c:130:68: note: passing argument to parameter 'parola' here
+  130 | void f(Albero t, int dir, int wildcard, int K, int numerrori, char parola[], int segna, Lista *real, Lista prova, int depth, int prev, int hasprev, int m);
+      |                                                                    ^
+2 warnings generated.
+
+$ cc <build-temporanea>/755.o -lm -o <build-temporanea>/755.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

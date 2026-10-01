@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/139_07-02_liste-tde-3-liste-12.c -o <build-temporanea>/419.o
+
+[Compilazione]
+esercizi/07-liste/139_07-02_liste-tde-3-liste-12.c:63:12: warning: unused function 'dataUguale' [-Wunused-function]
+   63 | static int dataUguale(Data a, Data b) {
+      |            ^~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/419.o -lm -o <build-temporanea>/419.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

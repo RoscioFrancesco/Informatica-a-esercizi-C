@@ -1,0 +1,22 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/003_08-11_es3-campi.c -o <build-temporanea>/200.o
+
+[Compilazione]
+esercizi/06-struct-e-file/003_08-11_es3-campi.c:33:10: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   33 | int main ()
+      |          ^
+      |           void
+esercizi/06-struct-e-file/003_08-11_es3-campi.c:46:71: warning: equality comparison result unused [-Wunused-comparison]
+   46 |                 t->elenco_squadre[i].elenco_giocatori[j].numero_maglia==1;
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+esercizi/06-struct-e-file/003_08-11_es3-campi.c:46:71: note: use '=' to turn this equality comparison into an assignment
+   46 |                 t->elenco_squadre[i].elenco_giocatori[j].numero_maglia==1;
+      |                                                                       ^~
+      |                                                                       =
+2 warnings generated.
+
+$ cc <build-temporanea>/200.o -lm -o <build-temporanea>/200.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

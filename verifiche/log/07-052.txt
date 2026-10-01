@@ -1,0 +1,66 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/052_25-01_tde-gen-liste-2.c -o <build-temporanea>/332.o
+
+[Compilazione]
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:27:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | Lista costruisciA();
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:28:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | Lista costruisciB();
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:29:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   29 | Lista costruisciC();
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:30:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   30 | Lista costruisciD();
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:31:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   31 | Lista costruisciE();
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:32:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   32 | Lista costruisciF();
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:41:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   41 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:42:11: warning: unused variable 'ris' [-Wunused-variable]
+   42 |     Lista ris;
+      |           ^~~
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:70:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   70 | Lista costruisciA(){int v[]={2,4,7,21,9,11};return FL(v,6);}
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:71:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   71 | Lista costruisciB(){int v[]={5,1,3,4,12,6};return FL(v,6);}
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:72:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   72 | Lista costruisciC(){int v[]={23,11,8,12,7,11,4,100,6};return FL(v,9);}
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:73:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   73 | Lista costruisciD(){int v[]={22,8,89,10,4,12};return FL(v,6);}
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:74:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   74 | Lista costruisciE(){int v[]={23,8,4,12,7,11,4,100,6};return FL(v,9);}
+      |                  ^
+      |                   void
+esercizi/07-liste/052_25-01_tde-gen-liste-2.c:75:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   75 | Lista costruisciF(){int v[]={22,8,89,10,4,12};return FL(v,6);}
+      |                  ^
+      |                   void
+14 warnings generated.
+
+$ cc <build-temporanea>/332.o -lm -o <build-temporanea>/332.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

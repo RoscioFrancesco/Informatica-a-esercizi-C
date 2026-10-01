@@ -1,0 +1,40 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c -o <build-temporanea>/659.o
+
+[Compilazione]
+esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c:20:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | albero creaAlbero1();albero creaAlbero2();
+      |                   ^
+      |                    void
+esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c:20:40: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | albero creaAlbero1();albero creaAlbero2();
+      |                                        ^
+      |                                         void
+esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c:31:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   31 | int main(){
+      |         ^
+      |          void
+esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c:32:9: warning: unused variable 'ris' [-Wunused-variable]
+   32 |     int ris=0;
+      |         ^~~
+esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c:52:15: warning: unused parameter 'input' [-Wunused-parameter]
+   52 | void f(albero input,albero risultato){
+      |               ^
+esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c:52:28: warning: unused parameter 'risultato' [-Wunused-parameter]
+   52 | void f(albero input,albero risultato){
+      |                            ^
+esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c:58:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   58 | albero creaAlbero1() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/042_21-01_giorno-6-tde-alberi-tosto.c:68:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   68 | albero creaAlbero2() {
+      |                   ^
+      |                    void
+8 warnings generated.
+
+$ cc <build-temporanea>/659.o -lm -o <build-temporanea>/659.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,174 @@
+//  Created by Francesco Roscio Ricon on 13/02/26.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* =========================
+   STRUTTURA LISTA
+   ========================= */
+typedef struct N {
+    int v;
+    struct N *next;
+} Nodo;
+
+typedef Nodo* Lista;
+
+/* =========================
+   PROTOTIPO RICHIESTO
+   ========================= */
+Lista eliminaBlocchiCrescentiInterni(Lista L);   // TODO: da implementare
+
+/* =========================
+   UTILITY
+   ========================= */
+static Nodo* newNode(int x) {
+    Nodo* n = (Nodo*)malloc(sizeof(Nodo));
+    if(!n) { perror("malloc"); exit(1); }
+    n->v = x;
+    n->next = NULL;
+    return n;
+}
+
+static Lista pushBack(Lista L, int x) {
+    Nodo* nn = newNode(x);
+    if(L == NULL) return nn;
+    Nodo* t = L;
+    while(t->next) t = t->next;
+    t->next = nn;
+    return L;
+}
+
+static Lista buildFromArray(const int a[], int n) {
+    Lista L = NULL;
+    for(int i = 0; i < n; i++) L = pushBack(L, a[i]);
+    return L;
+}
+
+static void printList(const char* msg, Lista L) {
+    printf("%s", msg);
+    if(L == NULL) { printf("NULL\n"); return; }
+    while(L) {
+        printf("%d", L->v);
+        if(L->next) printf(" -> ");
+        L = L->next;
+    }
+    printf(" -> NULL\n");
+}
+
+static void freeList(Lista L) {
+    while(L) {
+        Nodo* tmp = L;
+        L = L->next;
+        free(tmp);
+    }
+}
+
+/* =========================
+   MAIN DI TEST
+   ========================= */
+void f(Lista *l);
+Lista eliminaK(Lista head ,int k);
+int blocco(Lista head);
+int main(void) {
+    /* Test 1: esempio del testo */
+    int t1[] = {1,3,5,4,2,7,8,1};
+    Lista L1 = buildFromArray(t1, 8);
+
+    printf("=== TEST 1 (esempio) ===\n");
+    printList("Input:  ", L1);
+    Lista R1 = eliminaBlocchiCrescentiInterni(L1);
+    printList("Output: ", R1);
+    freeList(R1);
+
+    /* Test 2: blocco crescente interno lungo */
+    int t2[] = {9, 4, 5, 6, 2};
+    Lista L2 = buildFromArray(t2, 5);
+
+    printf("\n=== TEST 2 (blocco interno) ===\n");
+    printList("Input:  ", L2);
+    Lista R2 = eliminaBlocchiCrescentiInterni(L2);
+    printList("Output: ", R2);
+    freeList(R2);
+
+    /* Test 3: blocco crescente che tocca il primo (non si elimina) */
+    int t3[] = {1, 2, 3, 0};
+    Lista L3 = buildFromArray(t3, 4);
+
+    printf("\n=== TEST 3 (tocca primo) ===\n");
+    printList("Input:  ", L3);
+    Lista R3 = eliminaBlocchiCrescentiInterni(L3);
+    printList("Output: ", R3);
+    freeList(R3);
+
+    /* Test 4: blocco crescente che tocca l'ultimo (non si elimina) */
+    int t4[] = {5, 1, 2, 3};
+    Lista L4 = buildFromArray(t4, 4);
+
+    printf("\n=== TEST 4 (tocca ultimo) ===\n");
+    printList("Input:  ", L4);
+    Lista R4 = eliminaBlocchiCrescentiInterni(L4);
+    printList("Output: ", R4);
+    freeList(R4);
+
+    /* Test 5: nessun blocco interno eliminabile */
+    int t5[] = {7, 6, 5, 4};
+    Lista L5 = buildFromArray(t5, 4);
+
+    printf("\n=== TEST 5 (nessun blocco) ===\n");
+    printList("Input:  ", L5);
+    Lista R5 = eliminaBlocchiCrescentiInterni(L5);
+    printList("Output: ", R5);
+    freeList(R5);
+
+    return 0;
+}
+
+
+Lista eliminaBlocchiCrescentiInterni(Lista L) {
+    f(&L);
+    return L;
+}
+int blocco(Lista head)
+    {
+        if(head==NULL)
+            return 0;
+        int count=1;
+        while(head!=NULL && head->next!=NULL && head->next->next!=NULL)
+            {
+                if(head->next->v<=head->v)
+                    break;
+                count++;
+                head=head->next;
+            }
+    return count;
+    }
+Lista eliminaK(Lista head ,int k)
+    {
+        if(head==NULL)
+            return head;
+    for(int i=0; i<k && head!=NULL; i++)
+        {
+            Lista temp=head->next;
+            free(head);
+            head=temp;
+        }
+    return head;
+    }
+void f(Lista *l)
+    {
+        if(*l==NULL)
+            return;
+        Lista *pp=l;
+    while (*pp!=NULL) {
+        int len=blocco(*pp);
+        if(len>0 && (*pp)->next!=NULL && (*pp)!=*l && len>2)
+            {
+                (*pp)=eliminaK(*pp, len);
+            }
+        else
+            {
+                pp=&(*pp)->next;
+            }
+    }
+
+    }

@@ -1,0 +1,43 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c -o <build-temporanea>/309.o
+
+[Compilazione]
+esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c:30:25: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   30 | ListaPoligoni costruisci();
+      |                         ^
+      |                          void
+esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c:41:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   41 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c:65:25: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   65 | ListaPoligoni costruisci(){
+      |                         ^
+      |                          void
+esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c:66:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   66 |     int M[5][10]={0,0,1,0,2,2,1,1,-1,-1,
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   {                    }
+esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c:67:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   67 |                   1,6,9,1,5,5,1,9,0,8,
+      |                   ^~~~~~~~~~~~~~~~~~~
+      |                   {                  }
+esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c:68:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   68 |                   1,3,1,4,4,4,4,2,3,1,
+      |                   ^~~~~~~~~~~~~~~~~~~
+      |                   {                  }
+esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c:69:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   69 |                   1,3,2,4,0,2,0,0,-1,-1,
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   {                    }
+esercizi/07-liste/029_19-01_giorno-8-tde-6-liste.c:70:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   70 |                   1,32,8,8,5,0,-1,-1,-1,-1};
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                   {                       }
+8 warnings generated.
+
+$ cc <build-temporanea>/309.o -lm -o <build-temporanea>/309.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

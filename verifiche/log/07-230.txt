@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/230_14-02_tde-4-es-liste-5.c -o <build-temporanea>/510.o
+
+[Compilazione]
+esercizi/07-liste/230_14-02_tde-4-es-liste-5.c:107:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  107 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/230_14-02_tde-4-es-liste-5.c:144:11: warning: unused variable 'scorri' [-Wunused-variable]
+  144 |     Lista scorri=head;
+      |           ^~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/510.o -lm -o <build-temporanea>/510.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

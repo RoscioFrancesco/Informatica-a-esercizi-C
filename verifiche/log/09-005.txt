@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/09-ordinamento-e-ricerca/005_02-03_merge-sort-2mz.c -o <build-temporanea>/891.o
+
+[Compilazione]
+esercizi/09-ordinamento-e-ricerca/005_02-03_merge-sort-2mz.c:12:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   12 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/891.o -lm -o <build-temporanea>/891.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

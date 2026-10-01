@@ -1,0 +1,50 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c -o <build-temporanea>/5.o
+
+[Compilazione]
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:10:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   10 | int main() {
+      |         ^
+      |          void
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:11:78: warning: variable 'ris5' set but not used [-Wunused-but-set-variable]
+   11 |     int n10, resto1, resto2, resto3, resto4, resto5, ris1, ris2, ris3, ris4, ris5;
+      |                                                                              ^
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:17:17: warning: variable 'ris1' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+   17 |             if (n10==1)
+      |                 ^~~~~~
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:22:12: note: uninitialized use occurs here
+   22 |     ris2 = ris1 / 2;
+      |            ^~~~
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:17:13: note: remove the 'if' if its condition is always false
+   17 |             if (n10==1)
+      |             ^~~~~~~~~~~
+   18 |                 printf("Il numero in base 1 è pari a 0001");
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   19 |             else
+      |             ~~~~
+   20 |     ris1 = n10 / 2;
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:14:9: warning: variable 'ris1' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+   14 |     if (n10==0)
+      |         ^~~~~~
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:22:12: note: uninitialized use occurs here
+   22 |     ris2 = ris1 / 2;
+      |            ^~~~
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:14:5: note: remove the 'if' if its condition is always false
+   14 |     if (n10==0)
+      |     ^~~~~~~~~~~
+   15 |         printf("Il numero in base 2 è pari a 0000");
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   16 |         else
+      |         ~~~~
+   17 |             if (n10==1)
+esercizi/01-fondamenti/006_25-09_da-base-10-a-base-2.c:11:58: note: initialize the variable 'ris1' to silence this warning
+   11 |     int n10, resto1, resto2, resto3, resto4, resto5, ris1, ris2, ris3, ris4, ris5;
+      |                                                          ^
+      |                                                           = 0
+4 warnings generated.
+
+$ cc <build-temporanea>/5.o -lm -o <build-temporanea>/5.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,29 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/107_30-01_alberi-es-15-b-chat.c -o <build-temporanea>/724.o
+
+[Compilazione]
+esercizi/08-alberi/107_30-01_alberi-es-15-b-chat.c:354:17: warning: incompatible pointer types assigning to 'Puntatore' (aka 'struct Node **') from 'Albero' (aka 'struct Node *'); take the address with & [-Wincompatible-pointer-types]
+  354 |         v[segna]=t;
+      |                 ^~
+      |                  &
+esercizi/08-alberi/107_30-01_alberi-es-15-b-chat.c:376:16: warning: incompatible pointer types passing 'Puntatore' (aka 'struct Node **') to parameter of type 'Puntatore *' (aka 'struct Node ***'); take the address with & [-Wincompatible-pointer-types]
+  376 |     f(t, 1, 0, v, 0);
+      |                ^
+      |                &
+esercizi/08-alberi/107_30-01_alberi-es-15-b-chat.c:349:56: note: passing argument to parameter 'v' here
+  349 | void f(Albero t, int dir_expected, int flag, Puntatore v[], int segna) // dir_expected=-1 se mi aspetto che vada a sinistra, dir_expected=1 se mi aspetto dx
+      |                                                        ^
+esercizi/08-alberi/107_30-01_alberi-es-15-b-chat.c:377:17: warning: incompatible pointer types passing 'Puntatore' (aka 'struct Node **') to parameter of type 'Puntatore *' (aka 'struct Node ***'); take the address with & [-Wincompatible-pointer-types]
+  377 |     f(t, -1, 0, v, 0);
+      |                 ^
+      |                 &
+esercizi/08-alberi/107_30-01_alberi-es-15-b-chat.c:349:56: note: passing argument to parameter 'v' here
+  349 | void f(Albero t, int dir_expected, int flag, Puntatore v[], int segna) // dir_expected=-1 se mi aspetto che vada a sinistra, dir_expected=1 se mi aspetto dx
+      |                                                        ^
+3 warnings generated.
+
+$ cc <build-temporanea>/724.o -lm -o <build-temporanea>/724.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/115_04-02_chat-lista-es-8-15.c -o <build-temporanea>/395.o
+
+[Compilazione]
+esercizi/07-liste/115_04-02_chat-lista-es-8-15.c:63:20: warning: unused function 'fromArrayVal' [-Wunused-function]
+   63 | static ListaValori fromArrayVal(const int a[], int n) {
+      |                    ^~~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/395.o -lm -o <build-temporanea>/395.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

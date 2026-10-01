@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/024_19-01_giorno-8-tde-1-liste.c -o <build-temporanea>/304.o
+
+[Compilazione]
+esercizi/07-liste/024_19-01_giorno-8-tde-1-liste.c:98:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   98 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/024_19-01_giorno-8-tde-1-liste.c:102:11: warning: unused variable 'risultato' [-Wunused-variable]
+  102 |     lista risultato=NULL;
+      |           ^~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/304.o -lm -o <build-temporanea>/304.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

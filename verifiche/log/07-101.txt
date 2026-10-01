@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/101_03-02_liste-2-16.c -o <build-temporanea>/381.o
+
+[Compilazione]
+esercizi/07-liste/101_03-02_liste-2-16.c:73:12: warning: unused function 'lenWord' [-Wunused-function]
+   73 | static int lenWord(const char *s) {
+      |            ^~~~~~~
+esercizi/07-liste/101_03-02_liste-2-16.c:96:14: warning: unused function 'eliminaNonLocaleRec' [-Wunused-function]
+   96 | static Lista eliminaNonLocaleRec(Node *prev, Node *curr); /* TODO: tua ricorsione */
+      |              ^~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/381.o -lm -o <build-temporanea>/381.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

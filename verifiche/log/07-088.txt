@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/088_01-02_albero-chat-n1-18.c -o <build-temporanea>/368.o
+
+[Compilazione]
+esercizi/07-liste/088_01-02_albero-chat-n1-18.c:180:50: warning: unused parameter 'P' [-Wunused-parameter]
+  180 | Partizione partizionaStableRic(Lista head, int (*P)(const char*))
+      |                                                  ^
+1 warning generated.
+
+$ cc <build-temporanea>/368.o -lm -o <build-temporanea>/368.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

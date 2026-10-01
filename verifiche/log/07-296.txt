@@ -1,0 +1,6 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/296_01-03_tde-13-1mz.c -o <build-temporanea>/576.o
+
+[Compilazione]
+Nessun diagnostico.
+
+Esito: frammento-senza-main

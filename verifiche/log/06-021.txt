@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/021_16-11_trovare-lo-zero.c -o <build-temporanea>/218.o
+
+[Compilazione]
+esercizi/06-struct-e-file/021_16-11_trovare-lo-zero.c:15:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   15 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/218.o -lm -o <build-temporanea>/218.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

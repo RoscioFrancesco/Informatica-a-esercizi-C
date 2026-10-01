@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/075_30-01_liste-rifaccio-n4-chat.c -o <build-temporanea>/355.o
+
+[Compilazione]
+esercizi/07-liste/075_30-01_liste-rifaccio-n4-chat.c:75:12: warning: unused function 'isAnchorWord' [-Wunused-function]
+   75 | static int isAnchorWord(const char *w) {
+      |            ^~~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/355.o -lm -o <build-temporanea>/355.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

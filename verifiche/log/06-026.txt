@@ -1,0 +1,40 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c -o <build-temporanea>/224.o
+
+[Compilazione]
+esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c:21:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | ListaDiElem crea1();
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c:22:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   22 | ListaDiElem crea2();
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c:29:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   29 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c:30:17: warning: unused variable 'lista' [-Wunused-variable]
+   30 |     ListaDiElem lista=NULL,lista1=NULL,lista2=NULL, listaunica=NULL, listacomuni=NULL;
+      |                 ^~~~~
+esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c:30:53: warning: unused variable 'listaunica' [-Wunused-variable]
+   30 |     ListaDiElem lista=NULL,lista1=NULL,lista2=NULL, listaunica=NULL, listacomuni=NULL;
+      |                                                     ^~~~~~~~~~
+esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c:30:70: warning: unused variable 'listacomuni' [-Wunused-variable]
+   30 |     ListaDiElem lista=NULL,lista1=NULL,lista2=NULL, listaunica=NULL, listacomuni=NULL;
+      |                                                                      ^~~~~~~~~~~
+esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c:68:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   68 | ListaDiElem crea1() {
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/026_26-11_lab-liste-es-2.c:87:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   87 | ListaDiElem crea2() {
+      |                  ^
+      |                   void
+8 warnings generated.
+
+$ cc <build-temporanea>/224.o -lm -o <build-temporanea>/224.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

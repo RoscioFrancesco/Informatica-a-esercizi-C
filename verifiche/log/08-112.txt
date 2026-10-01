@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/112_31-01_albero-chat-es4.c -o <build-temporanea>/729.o
+
+[Compilazione]
+esercizi/08-alberi/112_31-01_albero-chat-es4.c:59:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   59 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/729.o -lm -o <build-temporanea>/729.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

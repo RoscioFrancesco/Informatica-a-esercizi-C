@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/246_15-02_tde-5-liste-4.c -o <build-temporanea>/526.o
+
+[Compilazione]
+esercizi/07-liste/246_15-02_tde-5-liste-4.c:30:26: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   30 | Rubrica costruisciRubrica();
+      |                          ^
+      |                           void
+esercizi/07-liste/246_15-02_tde-5-liste-4.c:37:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   37 | int main(){
+      |         ^
+      |          void
+esercizi/07-liste/246_15-02_tde-5-liste-4.c:46:26: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   46 | Rubrica costruisciRubrica(){
+      |                          ^
+      |                           void
+3 warnings generated.
+
+$ cc <build-temporanea>/526.o -lm -o <build-temporanea>/526.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

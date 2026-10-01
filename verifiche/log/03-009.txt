@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/03-stringhe/009_20-02_o-tde-1.c -o <build-temporanea>/160.o
+
+[Compilazione]
+esercizi/03-stringhe/009_20-02_o-tde-1.c:19:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | int main()
+      |         ^
+      |          void
+esercizi/03-stringhe/009_20-02_o-tde-1.c:31:19: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   31 |     for(int i=0; i<strlen(parola); i++)
+      |                  ~^~~~~~~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/160.o -lm -o <build-temporanea>/160.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

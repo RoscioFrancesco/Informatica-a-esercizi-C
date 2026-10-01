@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/256_16-02_es-3-chat-liste-3.c -o <build-temporanea>/536.o
+
+[Compilazione]
+esercizi/07-liste/256_16-02_es-3-chat-liste-3.c:59:18: warning: extra ';' outside of a function [-Wextra-semi]
+   59 | void f(lista *l);;
+      |                  ^
+1 warning generated.
+
+$ cc <build-temporanea>/536.o -lm -o <build-temporanea>/536.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

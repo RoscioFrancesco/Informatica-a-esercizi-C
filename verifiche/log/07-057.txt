@@ -1,0 +1,38 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/057_27-01_esame-liste-2.c -o <build-temporanea>/337.o
+
+[Compilazione]
+esercizi/07-liste/057_27-01_esame-liste-2.c:27:12: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | Lista crea1();
+      |            ^
+      |             void
+esercizi/07-liste/057_27-01_esame-liste-2.c:28:12: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | Lista crea2();
+      |            ^
+      |             void
+esercizi/07-liste/057_27-01_esame-liste-2.c:29:12: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   29 | Lista crea3();
+      |            ^
+      |             void
+esercizi/07-liste/057_27-01_esame-liste-2.c:96:12: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   96 | Lista crea1(){Nodo *L=NULL;a(&L,"CANE");a(&L,"PANE");a(&L,"CASO");a(&L,"NASO");a(&L,"PALE");a(&L,"MALE");return L;}
+      |            ^
+      |             void
+esercizi/07-liste/057_27-01_esame-liste-2.c:97:12: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   97 | Lista crea2(){Nodo *L=NULL;a(&L,"CANE");a(&L,"PANE");a(&L,"CASO");a(&L,"MARE");a(&L,"LAGO");return L;}
+      |            ^
+      |             void
+esercizi/07-liste/057_27-01_esame-liste-2.c:98:12: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   98 | Lista crea3(){Nodo *L=NULL;a(&L,"CANE");a(&L,"PANE");a(&L,"LANE");return L;}
+      |            ^
+      |             void
+esercizi/07-liste/057_27-01_esame-liste-2.c:107:13: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  107 |         int i=0;
+      |             ^
+7 warnings generated.
+
+$ cc <build-temporanea>/337.o -lm -o <build-temporanea>/337.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

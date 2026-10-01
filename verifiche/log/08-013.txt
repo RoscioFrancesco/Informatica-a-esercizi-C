@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/013_14-12_alberi-esercitqaz.c -o <build-temporanea>/630.o
+
+[Compilazione]
+esercizi/08-alberi/013_14-12_alberi-esercitqaz.c:24:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   24 | albero creaAlbero();
+      |                  ^
+      |                   void
+esercizi/08-alberi/013_14-12_alberi-esercitqaz.c:33:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   33 | int main(){
+      |         ^
+      |          void
+esercizi/08-alberi/013_14-12_alberi-esercitqaz.c:46:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   46 | albero creaAlbero() {
+      |                  ^
+      |                   void
+3 warnings generated.
+
+$ cc <build-temporanea>/630.o -lm -o <build-temporanea>/630.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

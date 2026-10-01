@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/205_11-02_es-7-chat-liste-8.c -o <build-temporanea>/822.o
+
+[Compilazione]
+esercizi/08-alberi/205_11-02_es-7-chat-liste-8.c:135:18: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  135 |         if(*segna==strlen(parola))
+      |            ~~~~~~^ ~~~~~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/822.o -lm -o <build-temporanea>/822.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

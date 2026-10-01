@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/092_02-02_invertilista-17.c -o <build-temporanea>/372.o
+
+[Compilazione]
+esercizi/07-liste/092_02-02_invertilista-17.c:80:16: warning: use of an empty initializer is a C23 extension [-Wc23-extensions]
+   80 |     int a3[] = {}; /* lista vuota */
+      |                ^
+esercizi/07-liste/092_02-02_invertilista-17.c:80:16: warning: zero size arrays are an extension [-Wzero-length-array]
+esercizi/07-liste/092_02-02_invertilista-17.c:80:9: warning: unused variable 'a3' [-Wunused-variable]
+   80 |     int a3[] = {}; /* lista vuota */
+      |         ^~
+3 warnings generated.
+
+$ cc <build-temporanea>/372.o -lm -o <build-temporanea>/372.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

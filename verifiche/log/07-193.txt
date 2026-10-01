@@ -1,0 +1,35 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/193_11-02_es-6-chat-liste-8.c -o <build-temporanea>/473.o
+
+[Compilazione]
+esercizi/07-liste/193_11-02_es-6-chat-liste-8.c:28:19: warning: unused parameter 'v' [-Wunused-parameter]
+   28 | Nodo *newNode(int v) {
+      |                   ^
+esercizi/07-liste/193_11-02_es-6-chat-liste-8.c:33:22: warning: unused parameter 'l' [-Wunused-parameter]
+   33 | void pushBack(Lista *l, int v) {
+      |                      ^
+esercizi/07-liste/193_11-02_es-6-chat-liste-8.c:33:29: warning: unused parameter 'v' [-Wunused-parameter]
+   33 | void pushBack(Lista *l, int v) {
+      |                             ^
+esercizi/07-liste/193_11-02_es-6-chat-liste-8.c:37:24: warning: unused parameter 'l' [-Wunused-parameter]
+   37 | void stampaLista(Lista l) {
+      |                        ^
+esercizi/07-liste/193_11-02_es-6-chat-liste-8.c:41:23: warning: unused parameter 'l' [-Wunused-parameter]
+   41 | void freeLista(Lista *l) {
+      |                       ^
+esercizi/07-liste/193_11-02_es-6-chat-liste-8.c:45:27: warning: unused parameter 'somma' [-Wunused-parameter]
+   45 | int isInstabile(long long somma, int k, int minimo) {
+      |                           ^
+esercizi/07-liste/193_11-02_es-6-chat-liste-8.c:45:38: warning: unused parameter 'k' [-Wunused-parameter]
+   45 | int isInstabile(long long somma, int k, int minimo) {
+      |                                      ^
+esercizi/07-liste/193_11-02_es-6-chat-liste-8.c:45:45: warning: unused parameter 'minimo' [-Wunused-parameter]
+   45 | int isInstabile(long long somma, int k, int minimo) {
+      |                                             ^
+8 warnings generated.
+
+$ cc <build-temporanea>/473.o -lm -o <build-temporanea>/473.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

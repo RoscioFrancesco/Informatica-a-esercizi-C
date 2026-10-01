@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/016_11-10_set-di-array.c -o <build-temporanea>/60.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/016_11-10_set-di-array.c:13:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   13 | int main() {
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/016_11-10_set-di-array.c:14:48: warning: unused variable 'carattere' [-Wunused-variable]
+   14 |     int v1[100], v2[100], counter2, i, numero, carattere, j, flag;
+      |                                                ^~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/60.o -lm -o <build-temporanea>/60.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

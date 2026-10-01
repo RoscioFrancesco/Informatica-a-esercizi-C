@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/03-stringhe/006_18-11_lab-es-3.c -o <build-temporanea>/155.o
+
+[Compilazione]
+esercizi/03-stringhe/006_18-11_lab-es-3.c:18:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   18 | int main() {
+      |         ^
+      |          void
+esercizi/03-stringhe/006_18-11_lab-es-3.c:22:9: warning: variable 'len_stringa' set but not used [-Wunused-but-set-variable]
+   22 |     int len_stringa;
+      |         ^
+2 warnings generated.
+
+$ cc <build-temporanea>/155.o -lm -o <build-temporanea>/155.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

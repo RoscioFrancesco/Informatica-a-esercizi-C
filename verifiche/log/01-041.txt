@@ -1,0 +1,27 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/041_26-10_funzioni3.c -o <build-temporanea>/40.o
+
+[Compilazione]
+esercizi/01-fondamenti/041_26-10_funzioni3.c:15:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   15 | int main() {
+      |         ^
+      |          void
+esercizi/01-fondamenti/041_26-10_funzioni3.c:21:47: warning: format specifies type 'void *' but the argument has type 'int *' [-Wformat-pedantic]
+   21 |     printf("Il valoe del puntatore è: %p\n", pa);
+      |                                       ~~     ^~
+esercizi/01-fondamenti/041_26-10_funzioni3.c:22:58: warning: format specifies type 'void *' but the argument has type 'int *' [-Wformat-pedantic]
+   22 |     printf("L'indirizzo della variabile puntata è: %p", &a);
+      |                                                    ~~   ^~
+esercizi/01-fondamenti/041_26-10_funzioni3.c:25:66: warning: format specifies type 'void *' but the argument has type 'int *' [-Wformat-pedantic]
+   25 |     printf("Il valore del puntatore dopo il raddoppio è: %p\n", pa);
+      |                                                          ~~     ^~
+esercizi/01-fondamenti/041_26-10_funzioni3.c:26:76: warning: format specifies type 'void *' but the argument has type 'int *' [-Wformat-pedantic]
+   26 |     printf("L'indirizzo della variabile puntata dopo il raddoppio è: %p", &a);
+      |                                                                      ~~   ^~
+5 warnings generated.
+
+$ cc <build-temporanea>/40.o -lm -o <build-temporanea>/40.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

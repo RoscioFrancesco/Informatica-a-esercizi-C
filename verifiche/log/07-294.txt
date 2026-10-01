@@ -1,0 +1,9 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/294_01-03_tde-9-1mz.c -o <build-temporanea>/574.o
+
+[Compilazione]
+esercizi/07-liste/294_01-03_tde-9-1mz.c:32:9: warning: unused variable 'num_max' [-Wunused-variable]
+   32 |     int num_max;
+      |         ^~~~~~~
+1 warning generated.
+
+Esito: frammento-senza-main

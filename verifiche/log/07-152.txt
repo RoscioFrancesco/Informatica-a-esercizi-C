@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/152_08-02_tde-7-liste-2-11.c -o <build-temporanea>/432.o
+
+[Compilazione]
+esercizi/07-liste/152_08-02_tde-7-liste-2-11.c:202:9: warning: unused variable 'ris' [-Wunused-variable]
+  202 |     int ris=eliminaCorsa(C, "ZZ999YY");
+      |         ^~~
+1 warning generated.
+
+$ cc <build-temporanea>/432.o -lm -o <build-temporanea>/432.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

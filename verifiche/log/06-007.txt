@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/007_08-11_es-pag-25-ppt.c -o <build-temporanea>/204.o
+
+[Compilazione]
+esercizi/06-struct-e-file/007_08-11_es-pag-25-ppt.c:27:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/007_08-11_es-pag-25-ppt.c:28:25: warning: unused variable 'ris' [-Wunused-variable]
+   28 |     int len, vet[N], i, ris[N];
+      |                         ^~~
+2 warnings generated.
+
+$ cc <build-temporanea>/204.o -lm -o <build-temporanea>/204.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

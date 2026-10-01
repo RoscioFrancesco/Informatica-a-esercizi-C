@@ -1,0 +1,38 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/033_02-10_media-pesata.c -o <build-temporanea>/32.o
+
+[Compilazione]
+esercizi/01-fondamenti/033_02-10_media-pesata.c:11:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   11 | int main()
+      |         ^
+      |          void
+esercizi/01-fondamenti/033_02-10_media-pesata.c:13:9: warning: unused variable 'i' [-Wunused-variable]
+   13 |     int i,  numero_voti;
+      |         ^
+esercizi/01-fondamenti/033_02-10_media-pesata.c:14:47: warning: variable 'somma_vpp' is used uninitialized whenever function 'main' is called [-Wsometimes-uninitialized]
+   14 |     float voto, vpp, somma_pesi, peso, media, somma_vpp;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+esercizi/01-fondamenti/033_02-10_media-pesata.c:23:21: note: uninitialized use occurs here
+   23 |         somma_vpp = somma_vpp+ vpp;
+      |                     ^~~~~~~~~
+esercizi/01-fondamenti/033_02-10_media-pesata.c:14:56: note: initialize the variable 'somma_vpp' to silence this warning
+   14 |     float voto, vpp, somma_pesi, peso, media, somma_vpp;
+      |                                                        ^
+      |                                                         = 0.0
+esercizi/01-fondamenti/033_02-10_media-pesata.c:14:22: warning: variable 'somma_pesi' is used uninitialized whenever function 'main' is called [-Wsometimes-uninitialized]
+   14 |     float voto, vpp, somma_pesi, peso, media, somma_vpp;
+      |     ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+esercizi/01-fondamenti/033_02-10_media-pesata.c:25:22: note: uninitialized use occurs here
+   25 |         somma_pesi = somma_pesi + peso;
+      |                      ^~~~~~~~~~
+esercizi/01-fondamenti/033_02-10_media-pesata.c:14:32: note: initialize the variable 'somma_pesi' to silence this warning
+   14 |     float voto, vpp, somma_pesi, peso, media, somma_vpp;
+      |                                ^
+      |                                 = 0.0
+4 warnings generated.
+
+$ cc <build-temporanea>/32.o -lm -o <build-temporanea>/32.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

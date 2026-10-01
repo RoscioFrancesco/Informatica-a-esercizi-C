@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/074_27-01_esame-albero-3.c -o <build-temporanea>/691.o
+
+[Compilazione]
+esercizi/08-alberi/074_27-01_esame-albero-3.c:21:10: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | Tree crea(){return nn('c',nn('i',nn('a',n,nn('o',n,n)),nn('p',n,n)),nn('s',nn('k',n,n),nn('r',n,nn('w',n,n))));}
+      |          ^
+      |           void
+1 warning generated.
+
+$ cc <build-temporanea>/691.o -lm -o <build-temporanea>/691.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

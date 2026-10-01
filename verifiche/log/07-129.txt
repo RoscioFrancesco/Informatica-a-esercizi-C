@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/129_05-02_tde-7-liste-14.c -o <build-temporanea>/409.o
+
+[Compilazione]
+esercizi/07-liste/129_05-02_tde-7-liste-14.c:176:13: warning: unused function 'distruggiLista' [-Wunused-function]
+  176 | static void distruggiLista(ListaSpettacoli l) {
+      |             ^~~~~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/409.o -lm -o <build-temporanea>/409.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

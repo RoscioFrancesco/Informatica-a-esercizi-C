@@ -1,0 +1,65 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/010_09-11_biliardo.c -o <build-temporanea>/207.o
+
+[Compilazione]
+esercizi/06-struct-e-file/010_09-11_biliardo.c:38:9: warning: variable 'angolo_migliore' set but not used [-Wunused-but-set-variable]
+   38 |     int angolo_migliore;
+      |         ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:37:14: warning: unused parameter 'argc' [-Wunused-parameter]
+   37 | int main(int argc, const char * argv[]) {
+      |              ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:37:33: warning: unused parameter 'argv' [-Wunused-parameter]
+   37 | int main(int argc, const char * argv[]) {
+      |                                 ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:58:24: warning: unused parameter 'M' [-Wunused-parameter]
+   58 | void stampamatrice(int M[R][C], posizione_palla *p, posizione_palla p_neltempo[], int len_array)
+      |                        ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:58:50: warning: unused parameter 'p' [-Wunused-parameter]
+   58 | void stampamatrice(int M[R][C], posizione_palla *p, posizione_palla p_neltempo[], int len_array)
+      |                                                  ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:92:28: warning: ordered comparison between pointer and zero ('int *' and 'int') is an extension [-Wpedantic]
+   92 |         if (*sp_r<0 && sp_c>0)
+      |                        ~~~~^~
+esercizi/06-struct-e-file/010_09-11_biliardo.c:96:28: warning: ordered comparison between pointer and zero ('int *' and 'int') is an extension [-Wpedantic]
+   96 |         if (*sp_r>0 && sp_c<0)
+      |                        ~~~~^~
+esercizi/06-struct-e-file/010_09-11_biliardo.c:90:22: warning: unused parameter 'M' [-Wunused-parameter]
+   90 | void rimbalzol1 (int M[R][C], int *sp_r, int *sp_c)
+      |                      ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:103:24: warning: ordered comparison between pointer and zero ('int *' and 'int') is an extension [-Wpedantic]
+  103 |     if (*sp_r>0 && sp_c<0)
+      |                    ~~~~^~
+esercizi/06-struct-e-file/010_09-11_biliardo.c:107:24: warning: ordered comparison between pointer and zero ('int *' and 'int') is an extension [-Wpedantic]
+  107 |     if (*sp_r<0 && sp_c>0)
+      |                    ~~~~^~
+esercizi/06-struct-e-file/010_09-11_biliardo.c:101:22: warning: unused parameter 'M' [-Wunused-parameter]
+  101 | void rimbalzol2 (int M[R][C], int *sp_r, int *sp_c)
+      |                      ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:114:24: warning: ordered comparison between pointer and zero ('int *' and 'int') is an extension [-Wpedantic]
+  114 |     if (*sp_r>0 && sp_c>0)
+      |                    ~~~~^~
+esercizi/06-struct-e-file/010_09-11_biliardo.c:118:24: warning: ordered comparison between pointer and zero ('int *' and 'int') is an extension [-Wpedantic]
+  118 |     if (*sp_r>0 && sp_c<0)
+      |                    ~~~~^~
+esercizi/06-struct-e-file/010_09-11_biliardo.c:112:22: warning: unused parameter 'M' [-Wunused-parameter]
+  112 | void rimbalzol3 (int M[R][C], int *sp_r, int *sp_c)
+      |                      ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:125:24: warning: ordered comparison between pointer and zero ('int *' and 'int') is an extension [-Wpedantic]
+  125 |     if (*sp_r<0 && sp_c>0)
+      |                    ~~~~^~
+esercizi/06-struct-e-file/010_09-11_biliardo.c:129:24: warning: ordered comparison between pointer and zero ('int *' and 'int') is an extension [-Wpedantic]
+  129 |     if (*sp_r>0 && sp_c>0)
+      |                    ~~~~^~
+esercizi/06-struct-e-file/010_09-11_biliardo.c:123:22: warning: unused parameter 'M' [-Wunused-parameter]
+  123 | void rimbalzol4 (int M[R][C], int *sp_r, int *sp_c)
+      |                      ^
+esercizi/06-struct-e-file/010_09-11_biliardo.c:179:41: warning: unused parameter 'M' [-Wunused-parameter]
+  179 | int spostamento(posizione_palla *p, int M[R][C], int angolo, posizione_palla p_neltempo[])
+      |                                         ^
+18 warnings generated.
+
+$ cc <build-temporanea>/207.o -lm -o <build-temporanea>/207.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

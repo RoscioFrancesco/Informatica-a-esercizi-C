@@ -1,0 +1,34 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/037_20-01_giorno-7-tde-3-alberi.c -o <build-temporanea>/236.o
+
+[Compilazione]
+esercizi/06-struct-e-file/037_20-01_giorno-7-tde-3-alberi.c:36:25: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   36 | ListaStringhe costruisci();
+      |                         ^
+      |                          void
+esercizi/06-struct-e-file/037_20-01_giorno-7-tde-3-alberi.c:40:32: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   40 | ListaCaratteri inizializzalista();
+      |                                ^
+      |                                 void
+esercizi/06-struct-e-file/037_20-01_giorno-7-tde-3-alberi.c:42:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   42 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/037_20-01_giorno-7-tde-3-alberi.c:44:20: warning: unused variable 'ris' [-Wunused-variable]
+   44 |     ListaCaratteri ris=NULL;
+      |                    ^~~
+esercizi/06-struct-e-file/037_20-01_giorno-7-tde-3-alberi.c:69:25: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   69 | ListaStringhe costruisci(){
+      |                         ^
+      |                          void
+esercizi/06-struct-e-file/037_20-01_giorno-7-tde-3-alberi.c:99:32: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   99 | ListaCaratteri inizializzalista()
+      |                                ^
+      |                                 void
+6 warnings generated.
+
+$ cc <build-temporanea>/236.o -lm -o <build-temporanea>/236.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

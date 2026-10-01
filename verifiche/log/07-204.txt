@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/204_13-02_chat-es-9-liste-6.c -o <build-temporanea>/484.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/484.o -lm -o <build-temporanea>/484.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

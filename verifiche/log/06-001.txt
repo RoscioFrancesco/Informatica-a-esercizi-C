@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/001_30-10_popoli-indiani.c -o <build-temporanea>/196.o
+
+[Compilazione]
+esercizi/06-struct-e-file/001_30-10_popoli-indiani.c:20:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/196.o -lm -o <build-temporanea>/196.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

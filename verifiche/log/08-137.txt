@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/137_02-02_albero-chat-albero-5a-17.c -o <build-temporanea>/754.o
+
+[Compilazione]
+esercizi/08-alberi/137_02-02_albero-chat-albero-5a-17.c:39:14: warning: unused function 'cons' [-Wunused-function]
+   39 | static Lista cons(int v, Lista next) {
+      |              ^~~~
+1 warning generated.
+
+$ cc <build-temporanea>/754.o -lm -o <build-temporanea>/754.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

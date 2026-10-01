@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/066_27-02_es-tde-12-27.c -o <build-temporanea>/110.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/066_27-02_es-tde-12-27.c:23:9: warning: unused variable 'M2' [-Wunused-variable]
+   23 |     int M2[N/2][N/2] = {0};   // qui la tua f dovrà scrivere la matrice compressa
+      |         ^~
+1 warning generated.
+
+$ cc <build-temporanea>/110.o -lm -o <build-temporanea>/110.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,55 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c -o <build-temporanea>/245.o
+
+[Compilazione]
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:23:24: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   23 | ListaDiListe costruisci();
+      |                        ^
+      |                         void
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:28:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:45:24: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   45 | ListaDiListe costruisci(){
+      |                        ^
+      |                         void
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:46:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   46 |     int M[8][10]={5,4,1,5,2,7,-1,-1,-1,-1,1,6,9,1,5,7,9,0,-1,-1,1,5,1,1,2,8,9,0,-1,-1,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~
+      |                   {                      }
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:46:43: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   46 |     int M[8][10]={5,4,1,5,2,7,-1,-1,-1,-1,1,6,9,1,5,7,9,0,-1,-1,1,5,1,1,2,8,9,0,-1,-1,
+      |                                           ^~~~~~~~~~~~~~~~~~~~~
+      |                                           {                    }
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:46:65: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   46 |     int M[8][10]={5,4,1,5,2,7,-1,-1,-1,-1,1,6,9,1,5,7,9,0,-1,-1,1,5,1,1,2,8,9,0,-1,-1,
+      |                                                                 ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                 {                    }
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:47:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   47 |                   1,3,2,4,0,9,8,6,-1,-1,1,2,9,8,4,0,9,0,-1,-1,1,8,7,8,3,-1,-1,-1,-1,-1,
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   {                    }
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:47:41: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   47 |                   1,3,2,4,0,9,8,6,-1,-1,1,2,9,8,4,0,9,0,-1,-1,1,8,7,8,3,-1,-1,-1,-1,-1,
+      |                                         ^~~~~~~~~~~~~~~~~~~~~
+      |                                         {                    }
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:47:63: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   47 |                   1,3,2,4,0,9,8,6,-1,-1,1,2,9,8,4,0,9,0,-1,-1,1,8,7,8,3,-1,-1,-1,-1,-1,
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                               {                       }
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:48:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   48 |                   1,3,4,2,5,7,9,0,-1,-1,7,8,9,-1,-1,-1,-1,-1,-1,-1};
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   {                    }
+esercizi/06-struct-e-file/046_26-01_tde-lista-di-liste.c:48:41: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   48 |                   1,3,4,2,5,7,9,0,-1,-1,7,8,9,-1,-1,-1,-1,-1,-1,-1};
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         {                         }
+11 warnings generated.
+
+$ cc <build-temporanea>/245.o -lm -o <build-temporanea>/245.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

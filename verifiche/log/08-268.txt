@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/268_data-non-indicata_albero-alterna-pari-dispari2.c -o <build-temporanea>/885.o
+
+[Compilazione]
+esercizi/08-alberi/268_data-non-indicata_albero-alterna-pari-dispari2.c:78:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   78 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/885.o -lm -o <build-temporanea>/885.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,43 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c -o <build-temporanea>/238.o
+
+[Compilazione]
+esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c:36:24: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   36 | ListaDiListe costruisci();
+      |                        ^
+      |                         void
+esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c:41:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   41 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c:58:24: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   58 | ListaDiListe costruisci(){
+      |                        ^
+      |                         void
+esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c:59:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   59 |     int M[5][10]={5,4,6,5,3,7,-1,-1,-1,-1,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~
+      |                   {                      }
+esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c:60:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   60 |                   1,6,9,1,5,5,9,0,-1,-1,
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   {                    }
+esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c:61:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   61 |                   1,5,1,1,1,1,8,9,0,-1,
+      |                   ^~~~~~~~~~~~~~~~~~~~
+      |                   {                   }
+esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c:62:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   62 |                   1,3,2,4,0,-1,-1,-1,-1,-1,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                   {                       }
+esercizi/06-struct-e-file/039_21-01_giorno-6-tde-2-liste.c:63:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   63 |                   1,2,8,8,4,0,9,0,-1,-1};
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   {                    }
+8 warnings generated.
+
+$ cc <build-temporanea>/238.o -lm -o <build-temporanea>/238.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

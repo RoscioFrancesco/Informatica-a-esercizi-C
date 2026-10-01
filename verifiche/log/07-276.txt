@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/276_20-02_matr-7.c -o <build-temporanea>/556.o
+
+[Compilazione]
+esercizi/07-liste/276_20-02_matr-7.c:23:23: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   23 | Polinomio inserimentoP();
+      |                       ^
+      |                        void
+esercizi/07-liste/276_20-02_matr-7.c:27:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/276_20-02_matr-7.c:66:23: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   66 | Polinomio inserimentoP()
+      |                       ^
+      |                        void
+3 warnings generated.
+
+$ cc <build-temporanea>/556.o -lm -o <build-temporanea>/556.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

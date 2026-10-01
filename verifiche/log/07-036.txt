@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/036_22-01_liste-con-struct-tde.c -o <build-temporanea>/316.o
+
+[Compilazione]
+esercizi/07-liste/036_22-01_liste-con-struct-tde.c:279:12: warning: variable 'new' is uninitialized when used here [-Wuninitialized]
+  279 |     return new;
+      |            ^~~
+esercizi/07-liste/036_22-01_liste-con-struct-tde.c:257:5: note: variable 'new' is declared here
+  257 |     Cliente new;
+      |     ^
+1 warning generated.
+
+$ cc <build-temporanea>/316.o -lm -o <build-temporanea>/316.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

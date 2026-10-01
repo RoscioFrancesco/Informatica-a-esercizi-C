@@ -1,0 +1,39 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/047_20-02_matr-5.c -o <build-temporanea>/91.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/047_20-02_matr-5.c:13:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   13 | int main(){
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/047_20-02_matr-5.c:14:18: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 |     int M[N][N]={1,12,0,7,8,8,
+      |                  ^~~~~~~~~~~~
+      |                  {           }
+esercizi/02-array-e-matrici/047_20-02_matr-5.c:15:18: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   15 |                  4,3,5,5,5,4,
+      |                  ^~~~~~~~~~~
+      |                  {          }
+esercizi/02-array-e-matrici/047_20-02_matr-5.c:16:18: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   16 |                  3,8,5,5,5,4,
+      |                  ^~~~~~~~~~~
+      |                  {          }
+esercizi/02-array-e-matrici/047_20-02_matr-5.c:17:18: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   17 |                  6,9,5,5,5,9,
+      |                  ^~~~~~~~~~~
+      |                  {          }
+esercizi/02-array-e-matrici/047_20-02_matr-5.c:18:18: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   18 |                  0,1,2,3,4,4,
+      |                  ^~~~~~~~~~~
+      |                  {          }
+esercizi/02-array-e-matrici/047_20-02_matr-5.c:19:18: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   19 |                  6,7,8,9,4,4};
+      |                  ^~~~~~~~~~~
+      |                  {          }
+7 warnings generated.
+
+$ cc <build-temporanea>/91.o -lm -o <build-temporanea>/91.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

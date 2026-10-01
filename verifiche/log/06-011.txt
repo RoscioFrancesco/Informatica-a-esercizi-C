@@ -1,0 +1,27 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/011_09-11_tde-pag-32.c -o <build-temporanea>/208.o
+
+[Compilazione]
+esercizi/06-struct-e-file/011_09-11_tde-pag-32.c:27:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/011_09-11_tde-pag-32.c:28:9: warning: unused variable 'r' [-Wunused-variable]
+   28 |     int r, i, c, num_r, num_c, riga_min, colonna_min, min, len_array=0;
+      |         ^
+esercizi/06-struct-e-file/011_09-11_tde-pag-32.c:28:15: warning: unused variable 'c' [-Wunused-variable]
+   28 |     int r, i, c, num_r, num_c, riga_min, colonna_min, min, len_array=0;
+      |               ^
+esercizi/06-struct-e-file/011_09-11_tde-pag-32.c:28:18: warning: unused variable 'num_r' [-Wunused-variable]
+   28 |     int r, i, c, num_r, num_c, riga_min, colonna_min, min, len_array=0;
+      |                  ^~~~~
+esercizi/06-struct-e-file/011_09-11_tde-pag-32.c:28:25: warning: unused variable 'num_c' [-Wunused-variable]
+   28 |     int r, i, c, num_r, num_c, riga_min, colonna_min, min, len_array=0;
+      |                         ^~~~~
+5 warnings generated.
+
+$ cc <build-temporanea>/208.o -lm -o <build-temporanea>/208.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

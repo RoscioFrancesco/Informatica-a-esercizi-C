@@ -1,0 +1,21 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/023_19-11_lab-es-6-fatto-bene.c -o <build-temporanea>/220.o
+
+[Compilazione]
+esercizi/06-struct-e-file/023_19-11_lab-es-6-fatto-bene.c:30:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   30 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/023_19-11_lab-es-6-fatto-bene.c:42:9: warning: unused variable 'segna' [-Wunused-variable]
+   42 |     int segna=0;
+      |         ^~~~~
+esercizi/06-struct-e-file/023_19-11_lab-es-6-fatto-bene.c:43:12: warning: unused variable 'max' [-Wunused-variable]
+   43 |     double max=Modulo(&array[0]);
+      |            ^~~
+3 warnings generated.
+
+$ cc <build-temporanea>/220.o -lm -o <build-temporanea>/220.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

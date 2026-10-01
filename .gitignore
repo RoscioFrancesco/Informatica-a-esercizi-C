@@ -1,0 +1,14 @@
+# Output locali
+build/
+*.o
+*.out
+*.exe
+*.dSYM/
+__pycache__/
+
+# File di sistema e stato personale degli IDE
+.DS_Store
+__MACOSX/
+._*
+xcuserdata/
+DerivedData/

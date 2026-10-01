@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/097_03-02_e3-iterativo-chat-17.c -o <build-temporanea>/377.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/377.o -lm -o <build-temporanea>/377.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

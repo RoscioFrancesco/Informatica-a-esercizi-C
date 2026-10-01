@@ -1,0 +1,26 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/323_07-03_es-19-7mz.c -o <build-temporanea>/603.o
+
+[Compilazione]
+esercizi/07-liste/323_07-03_es-19-7mz.c:27:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/323_07-03_es-19-7mz.c:44:16: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+   44 |         if(head=NULL)
+      |            ~~~~^~~~~
+esercizi/07-liste/323_07-03_es-19-7mz.c:44:16: note: place parentheses around the assignment to silence this warning
+   44 |         if(head=NULL)
+      |                ^    
+      |            (        )
+esercizi/07-liste/323_07-03_es-19-7mz.c:44:16: note: use '==' to turn this assignment into an equality comparison
+   44 |         if(head=NULL)
+      |                ^
+      |                ==
+2 warnings generated.
+
+$ cc <build-temporanea>/603.o -lm -o <build-temporanea>/603.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,30 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/040_09-11_tde-feb-2024.c -o <build-temporanea>/84.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/040_09-11_tde-feb-2024.c:19:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | int main() {
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/040_09-11_tde-feb-2024.c:20:15: warning: unused variable 'len2' [-Wunused-variable]
+   20 |     int len1, len2, len3, ris[N];
+      |               ^~~~
+esercizi/02-array-e-matrici/040_09-11_tde-feb-2024.c:20:21: warning: unused variable 'len3' [-Wunused-variable]
+   20 |     int len1, len2, len3, ris[N];
+      |                     ^~~~
+esercizi/02-array-e-matrici/040_09-11_tde-feb-2024.c:31:9: warning: unused variable 'M2' [-Wunused-variable]
+   31 |     int M2[4][N] = {
+      |         ^~
+esercizi/02-array-e-matrici/040_09-11_tde-feb-2024.c:37:9: warning: unused variable 'M3' [-Wunused-variable]
+   37 |     int M3[2][N] = {
+      |         ^~
+esercizi/02-array-e-matrici/040_09-11_tde-feb-2024.c:41:9: warning: unused variable 'M4' [-Wunused-variable]
+   41 |     int M4[4][N] = {
+      |         ^~
+6 warnings generated.
+
+$ cc <build-temporanea>/84.o -lm -o <build-temporanea>/84.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

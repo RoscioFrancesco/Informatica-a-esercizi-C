@@ -1,0 +1,26 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/005_09-12_lab-alberi-es-1.c -o <build-temporanea>/622.o
+
+[Compilazione]
+esercizi/08-alberi/005_09-12_lab-alberi-es-1.c:25:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   25 | albero creaAlbero();
+      |                  ^
+      |                   void
+esercizi/08-alberi/005_09-12_lab-alberi-es-1.c:38:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   38 | int main(){
+      |         ^
+      |          void
+esercizi/08-alberi/005_09-12_lab-alberi-es-1.c:39:7: warning: variable 'ris' set but not used [-Wunused-but-set-variable]
+   39 |   int ris=0;
+      |       ^
+esercizi/08-alberi/005_09-12_lab-alberi-es-1.c:58:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   58 | albero creaAlbero() {
+      |                  ^
+      |                   void
+4 warnings generated.
+
+$ cc <build-temporanea>/622.o -lm -o <build-temporanea>/622.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

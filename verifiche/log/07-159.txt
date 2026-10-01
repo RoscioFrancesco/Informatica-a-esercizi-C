@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/159_09-02_liste-2-pag-31-10.c -o <build-temporanea>/439.o
+
+[Compilazione]
+esercizi/07-liste/159_09-02_liste-2-pag-31-10.c:70:13: warning: unused function 'freeLinea' [-Wunused-function]
+   70 | static void freeLinea(Linea L) {
+      |             ^~~~~~~~~
+esercizi/07-liste/159_09-02_liste-2-pag-31-10.c:79:14: warning: unused function 'clonaLinea' [-Wunused-function]
+   79 | static Linea clonaLinea(Linea L) {
+      |              ^~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/439.o -lm -o <build-temporanea>/439.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

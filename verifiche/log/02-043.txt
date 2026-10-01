@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/043_20-02_matr-1.c -o <build-temporanea>/87.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/043_20-02_matr-1.c:15:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   15 | int main()
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/043_20-02_matr-1.c:26:9: warning: unused variable 'r' [-Wunused-variable]
+   26 |     int r=0;
+      |         ^
+2 warnings generated.
+
+$ cc <build-temporanea>/87.o -lm -o <build-temporanea>/87.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

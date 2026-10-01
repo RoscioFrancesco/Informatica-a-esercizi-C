@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/061_25-02_es-13-25-feb.c -o <build-temporanea>/260.o
+
+[Compilazione]
+esercizi/06-struct-e-file/061_25-02_es-13-25-feb.c:52:13: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   52 |     if(segna==strlen(parola))
+      |        ~~~~~^ ~~~~~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/260.o -lm -o <build-temporanea>/260.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

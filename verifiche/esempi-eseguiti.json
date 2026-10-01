@@ -1,0 +1,86 @@
+{
+  "scope": "Un solo caso di esempio per ciascuno degli otto file del percorso iniziale; non sono test esaustivi.",
+  "results": [
+    {
+      "id": "01-020",
+      "source": "esercizi/01-fondamenti/020_30-09_es-1-lab.c",
+      "stdin": "7\n5\n",
+      "expected_output_contains": "7+5=12",
+      "stdout": "Inserisci il primo addendo:\nInserisci il secondo addendo:\n7+5=12\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "id": "01-023",
+      "source": "esercizi/01-fondamenti/023_30-09_es-4-esercitazione.c",
+      "stdin": "100\n20\n",
+      "expected_output_contains": "Il prezzo scontato è 80.00",
+      "stdout": "Inserisci il prezzo\nInserisci lo sconto\nIl prezzo scontato è 80.00",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "id": "03-010",
+      "source": "esercizi/03-stringhe/010_30-10_costruzione-strclen.c",
+      "stdin": "abc\n",
+      "expected_output_contains": "La lunghezza è pari a 3",
+      "stdout": "Inserire la prima strigaLa lunghezza è pari a 3",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "id": "09-006",
+      "source": "esercizi/09-ordinamento-e-ricerca/006_03-03_bubble-3mz.c",
+      "stdin": "",
+      "expected_output_contains": "12345",
+      "stdout": "12345",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "id": "09-007",
+      "source": "esercizi/09-ordinamento-e-ricerca/007_07-03_es-1-7mz.c",
+      "stdin": "",
+      "expected_output_contains": "1,2,3,4,5,",
+      "stdout": "1,2,3,4,5,",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "id": "04-002",
+      "source": "esercizi/04-ricorsione-e-backtracking/002_16-11_fibonacci.c",
+      "stdin": "7\n",
+      "expected_output_contains": "1 1 2 3 5 8 13",
+      "stdout": "Inserie il numero l'n-esimo numero di fibonacci desiderato1 1 2 3 5 8 13 ",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "id": "07-005",
+      "source": "esercizi/07-liste/005_23-11_liste-prova2.c",
+      "stdin": "",
+      "expected_output_contains": "7-->8-->",
+      "stdout": "7-->8-->",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "id": "08-058",
+      "source": "esercizi/08-alberi/058_25-01_albero.c",
+      "stdin": "",
+      "expected_output_contains": "T1: 3\nT2: 0\nT3: 1",
+      "stdout": "T1: 3\nT2: 0\nT3: 1\n",
+      "stderr": "",
+      "returncode": 0,
+      "passed": true
+    }
+  ],
+  "note": "Casi eseguiti nella versione precedente; percorsi aggiornati. Verificata l’identità del codice eseguibile dopo la rinomina e la pulizia dei commenti."
+}

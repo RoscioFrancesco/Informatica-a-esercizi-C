@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/082_28-01_zig-zag-3.c -o <build-temporanea>/699.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/699.o -lm -o <build-temporanea>/699.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

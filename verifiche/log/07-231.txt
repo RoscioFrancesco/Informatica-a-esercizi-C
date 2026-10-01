@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/231_14-02_tde-4-es-struct-5.c -o <build-temporanea>/511.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/511.o -lm -o <build-temporanea>/511.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

@@ -1,0 +1,93 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/009_08-11_maialini.c -o <build-temporanea>/206.o
+
+[Compilazione]
+esercizi/06-struct-e-file/009_08-11_maialini.c:40:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   40 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/009_08-11_maialini.c:42:36: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   42 |     Allevamento allevamento = { 7, "porky pig", {12, 7, 1936}, 33.50, 85,
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    {                                    }
+esercizi/06-struct-e-file/009_08-11_maialini.c:43:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   43 |                         "miss piggy", {17, 12,1974}, 23.95, 170,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                                      }
+esercizi/06-struct-e-file/009_08-11_maialini.c:44:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   44 |                         "babe",       {23, 1, 1999}, 18.80, 250,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                                      }
+esercizi/06-struct-e-file/009_08-11_maialini.c:45:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   45 |                         "pumba",      {14, 11,1994}, 79.99, 1690,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                                       }
+esercizi/06-struct-e-file/009_08-11_maialini.c:46:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   46 |                         "peppa",      {31, 5, 2004}, 12.50, 8500,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                                       }
+esercizi/06-struct-e-file/009_08-11_maialini.c:47:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   47 |                         "ham",        {12, 7, 1968}, 19.05, 290,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                                      }
+esercizi/06-struct-e-file/009_08-11_maialini.c:48:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   48 |                         "piglet",     {22, 4, 1926}, 9.30,  1260 };
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                                       }
+esercizi/06-struct-e-file/009_08-11_maialini.c:42:36: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   42 |     Allevamento allevamento = { 7, "porky pig", {12, 7, 1936}, 33.50, 85,
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    {
+   43 |                         "miss piggy", {17, 12,1974}, 23.95, 170,
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   44 |                         "babe",       {23, 1, 1999}, 18.80, 250,
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   45 |                         "pumba",      {14, 11,1994}, 79.99, 1690,
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   46 |                         "peppa",      {31, 5, 2004}, 12.50, 8500,
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   47 |                         "ham",        {12, 7, 1968}, 19.05, 290,
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   48 |                         "piglet",     {22, 4, 1926}, 9.30,  1260 };
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                 }
+esercizi/06-struct-e-file/009_08-11_maialini.c:79:1: warning: non-void function does not return a value [-Wreturn-type]
+   79 | }
+      | ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:90:34: warning: unused parameter 'ord_alfabetico' [-Wunused-parameter]
+   90 | void ordinealfabetico(Maialino * ord_alfabetico[]){
+      |                                  ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:95:31: warning: argument 'ord_data' of type 'Maialino *[7]' with mismatched bound [-Warray-parameter]
+   95 |     void ordinedata(Maialino *ord_data[n]){
+      |                               ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:38:28: note: previously declared as 'Maialino *[]' here
+   38 | void ordinedata(Maialino * v[]);
+      |                            ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:95:31: warning: unused parameter 'ord_data' [-Wunused-parameter]
+   95 |     void ordinedata(Maialino *ord_data[n]){
+      |                               ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:98:31: warning: argument 'ord_peso' of type 'Maialino *[7]' with mismatched bound [-Warray-parameter]
+   98 |     void ordinepeso(Maialino *ord_peso[n]){
+      |                               ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:37:28: note: previously declared as 'Maialino *[]' here
+   37 | void ordinepeso(Maialino * v[]);
+      |                            ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:98:31: warning: unused parameter 'ord_peso' [-Wunused-parameter]
+   98 |     void ordinepeso(Maialino *ord_peso[n]){
+      |                               ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:101:37: warning: argument 'ord_pop' of type 'Maialino *[7]' with mismatched bound [-Warray-parameter]
+  101 |     void ordinepopolarita(Maialino *ord_pop[n]){
+      |                                     ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:39:34: note: previously declared as 'Maialino *[]' here
+   39 | void ordinepopolarita(Maialino * v[]);
+      |                                  ^
+esercizi/06-struct-e-file/009_08-11_maialini.c:101:37: warning: unused parameter 'ord_pop' [-Wunused-parameter]
+  101 |     void ordinepopolarita(Maialino *ord_pop[n]){
+      |                                     ^
+17 warnings generated.
+
+$ cc <build-temporanea>/206.o -lm -o <build-temporanea>/206.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

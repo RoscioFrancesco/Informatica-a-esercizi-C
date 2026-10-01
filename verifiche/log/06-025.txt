@@ -1,0 +1,31 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/025_25-11_lab-liste-es-1.c -o <build-temporanea>/223.o
+
+[Compilazione]
+esercizi/06-struct-e-file/025_25-11_lab-liste-es-1.c:19:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | ListaDiElem crea1();
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/025_25-11_lab-liste-es-1.c:20:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | ListaDiElem crea2();
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/025_25-11_lab-liste-es-1.c:27:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/025_25-11_lab-liste-es-1.c:73:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   73 | ListaDiElem crea1() {
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/025_25-11_lab-liste-es-1.c:92:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   92 | ListaDiElem crea2() {
+      |                  ^
+      |                   void
+5 warnings generated.
+
+$ cc <build-temporanea>/223.o -lm -o <build-temporanea>/223.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

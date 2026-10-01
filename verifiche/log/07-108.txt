@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/108_03-02_ricorsione-3.c -o <build-temporanea>/388.o
+
+[Compilazione]
+esercizi/07-liste/108_03-02_ricorsione-3.c:103:5: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  103 |       Partizione p;
+      |     ^
+esercizi/07-liste/108_03-02_ricorsione-3.c:103:8: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  103 |       Partizione p;
+      |      ^
+2 warnings generated.
+
+$ cc <build-temporanea>/388.o -lm -o <build-temporanea>/388.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

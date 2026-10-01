@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/333_09-03_es-1-9mz.c -o <build-temporanea>/613.o
+
+[Compilazione]
+esercizi/07-liste/333_09-03_es-1-9mz.c:22:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   22 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/333_09-03_es-1-9mz.c:83:11: warning: unused variable 'temp1' [-Wunused-variable]
+   83 |     Lista temp1=head;
+      |           ^~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/613.o -lm -o <build-temporanea>/613.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

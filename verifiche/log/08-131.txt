@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/131_02-02_10a-17.c -o <build-temporanea>/748.o
+
+[Compilazione]
+esercizi/08-alberi/131_02-02_10a-17.c:128:17: warning: unused variable 'names' [-Wunused-variable]
+  128 |     const char* names[] = { "t1", "t2", "t3" };
+      |                 ^~~~~
+esercizi/08-alberi/131_02-02_10a-17.c:32:13: warning: function 'freeTree' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+   32 | static void freeTree(Albero t) {
+      |             ^~~~~~~~
+esercizi/08-alberi/131_02-02_10a-17.c:43:13: warning: function 'printInorder' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+   43 | static void printInorder(Albero t) {
+      |             ^~~~~~~~~~~~
+esercizi/08-alberi/131_02-02_10a-17.c:70:13: warning: unused function 'printPaths' [-Wunused-function]
+   70 | static void printPaths(Albero t) {
+      |             ^~~~~~~~~~
+4 warnings generated.
+
+$ cc <build-temporanea>/748.o -lm -o <build-temporanea>/748.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

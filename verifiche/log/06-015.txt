@@ -1,0 +1,92 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/015_10-11_itinere-2023.c -o <build-temporanea>/212.o
+
+[Compilazione]
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:31:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   31 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:33:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   33 |     char G[N][N]={  'B','R','I','S','A','T','A','B',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:34:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   34 |                     'A','A','R','A','N','C','I','A',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:35:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   35 |                     'N','C','I','P','O','L','L','A',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:36:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   36 |                     'A','V','I','O','L','I','N','O',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:37:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   37 |                     'N','R','A','T','O','R','T','A',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:38:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   38 |                     'A','V','O','L','A','N','T','E',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:39:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   39 |                     'D','I','S','C','O','R','S','O',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:40:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   40 |                     'A','N','A','T','R','A','V','O'};
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:41:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   41 |     char P[M][M]={'R','I','S','A','T','A','\0','\0','\0',
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   {                                     }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:42:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   42 |               'A','R','A','N','C','I','A','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                    }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:43:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   43 |               'B','A','N','A','N','A','\0','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                     }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:44:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   44 |               'C','I','P','O','L','L','A','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                    }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:45:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   45 |               'V','I','O','L','I','N','O','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                    }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:46:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   46 |               'T','O','R','T','A','\0','\0','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                      }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:47:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   47 |               'V','O','L','A','N','T','E','\0','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                    }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:48:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   48 |               'D','I','S','C','O','R','S','O','\0',
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                   }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:49:15: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   49 |               'A','N','A','T','R','A','\0','\0','\0'};
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               {                                     }
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:66:9: warning: variable 'len_parola' set but not used [-Wunused-but-set-variable]
+   66 |     int len_parola;
+      |         ^
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:122:82: warning: unused parameter 'num_r' [-Wunused-parameter]
+  122 | int cercariga(int r0, int c0, char mat[N][N], int len_parola, char parola[], int num_r, int num_c)
+      |                                                                                  ^
+esercizi/06-struct-e-file/015_10-11_itinere-2023.c:137:96: warning: unused parameter 'num_c' [-Wunused-parameter]
+  137 | int cercacolonna(int r0, int c0, char mat[N][N], int len_parola, char parola[], int num_r, int num_c)
+      |                                                                                                ^
+21 warnings generated.
+
+$ cc <build-temporanea>/212.o -lm -o <build-temporanea>/212.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

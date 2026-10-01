@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/161_06-02_tde-2-alberi-2-0-13.c -o <build-temporanea>/778.o
+
+[Compilazione]
+esercizi/08-alberi/161_06-02_tde-2-alberi-2-0-13.c:176:30: warning: incompatible pointer types passing 'int **' to parameter of type 'int *'; remove & [-Wincompatible-pointer-types]
+  176 |     return f(T, 0, &hasprev, &rpimasomma);
+      |                              ^~~~~~~~~~~
+esercizi/08-alberi/161_06-02_tde-2-alberi-2-0-13.c:149:54: note: passing argument to parameter 'prima_somma' here
+  149 | int f(tree albero, int val_somma, int *hasprev, int *prima_somma)
+      |                                                      ^
+1 warning generated.
+
+$ cc <build-temporanea>/778.o -lm -o <build-temporanea>/778.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,39 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/030_02-11_tema-d-esame.c -o <build-temporanea>/74.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/030_02-11_tema-d-esame.c:16:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   16 | int leggiInt();
+      |             ^
+      |              void
+esercizi/02-array-e-matrici/030_02-11_tema-d-esame.c:17:14: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   17 | int leggiIntN();
+      |              ^
+      |               void
+esercizi/02-array-e-matrici/030_02-11_tema-d-esame.c:20:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | int main()
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/030_02-11_tema-d-esame.c:22:24: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   22 |     int contaOccorrenze(), contatore;
+      |                        ^
+      |                         void
+esercizi/02-array-e-matrici/030_02-11_tema-d-esame.c:28:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | int leggiInt()
+      |             ^
+      |              void
+esercizi/02-array-e-matrici/030_02-11_tema-d-esame.c:34:14: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   34 | int leggiIntN()
+      |              ^
+      |               void
+esercizi/02-array-e-matrici/030_02-11_tema-d-esame.c:63:20: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   63 | int contaOccorrenze()
+      |                    ^
+      |                     void
+7 warnings generated.
+
+$ cc <build-temporanea>/74.o -lm -o <build-temporanea>/74.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

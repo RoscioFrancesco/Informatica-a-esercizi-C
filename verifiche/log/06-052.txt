@@ -1,0 +1,35 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/052_18-02_tde-3-liste-1.c -o <build-temporanea>/251.o
+
+[Compilazione]
+esercizi/06-struct-e-file/052_18-02_tde-3-liste-1.c:55:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   55 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/052_18-02_tde-3-liste-1.c:91:20: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   91 |     int m[N][N*2]={3,7,1,8,3,1,9,1,0,0,
+      |                    ^~~~~~~~~~~~~~~~~~~
+      |                    {                  }
+esercizi/06-struct-e-file/052_18-02_tde-3-liste-1.c:92:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   92 |                   1,4,2,4,8,2,0,8,2,7,
+      |                   ^~~~~~~~~~~~~~~~~~~
+      |                   {                  }
+esercizi/06-struct-e-file/052_18-02_tde-3-liste-1.c:93:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   93 |                   2,4,6,8,3,0,0,0,0,0,
+      |                   ^~~~~~~~~~~~~~~~~~~
+      |                   {                  }
+esercizi/06-struct-e-file/052_18-02_tde-3-liste-1.c:94:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   94 |                   1,6,8,3,8,9,3,0,0,0,
+      |                   ^~~~~~~~~~~~~~~~~~~
+      |                   {                  }
+esercizi/06-struct-e-file/052_18-02_tde-3-liste-1.c:95:19: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   95 |                   4,4,8,1,1,6,0,0,0,0};
+      |                   ^~~~~~~~~~~~~~~~~~~
+      |                   {                  }
+6 warnings generated.
+
+$ cc <build-temporanea>/251.o -lm -o <build-temporanea>/251.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

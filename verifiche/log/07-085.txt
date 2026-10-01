@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/085_01-02_albero-chat-es5-liste-18.c -o <build-temporanea>/365.o
+
+[Compilazione]
+esercizi/07-liste/085_01-02_albero-chat-es5-liste-18.c:81:12: warning: unused function 'dist_approx' [-Wunused-function]
+   81 | static int dist_approx(const char *a, const char *b) {
+      |            ^~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/365.o -lm -o <build-temporanea>/365.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,19 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/264_19-02_esame-es-2.c -o <build-temporanea>/881.o
+
+[Compilazione]
+esercizi/08-alberi/264_19-02_esame-es-2.c:15:10: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   15 | Tree crea();
+      |          ^
+      |           void
+esercizi/08-alberi/264_19-02_esame-es-2.c:88:10: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   88 | Tree crea(){Tree t=nn('A',nn('B',nn('D',NULL,NULL),nn('E',nn('G',NULL,NULL),NULL)),nn('C',NULL,nn('F',NULL,NULL)));return t;}
+      |          ^
+      |           void
+2 warnings generated.
+
+$ cc <build-temporanea>/881.o -lm -o <build-temporanea>/881.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

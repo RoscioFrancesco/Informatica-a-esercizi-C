@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/091_02-02_e4-2-17.c -o <build-temporanea>/371.o
+
+[Compilazione]
+esercizi/07-liste/091_02-02_e4-2-17.c:103:9: warning: unused variable 'deleted' [-Wunused-variable]
+  103 |     int deleted = 0;
+      |         ^~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/371.o -lm -o <build-temporanea>/371.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

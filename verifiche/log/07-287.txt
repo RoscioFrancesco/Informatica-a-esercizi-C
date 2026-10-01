@@ -1,0 +1,20 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/287_28-02_tde-2-28.c -o <build-temporanea>/567.o
+
+[Compilazione]
+esercizi/07-liste/287_28-02_tde-2-28.c:46:59: warning: extra ';' outside of a function [-Wextra-semi]
+   46 | Lista inseriscincoda(Lista head, cliente cli, int durata);;
+      |                                                           ^
+esercizi/07-liste/287_28-02_tde-2-28.c:165:9: warning: unused variable 'count' [-Wunused-variable]
+  165 |     int count=1000;
+      |         ^~~~~
+esercizi/07-liste/287_28-02_tde-2-28.c:166:13: warning: unused variable 'min' [-Wunused-variable]
+  166 |     cliente min=head.telefonate[0].cli;
+      |             ^~~
+3 warnings generated.
+
+$ cc <build-temporanea>/567.o -lm -o <build-temporanea>/567.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

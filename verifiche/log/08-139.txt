@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/139_02-02_albero-chat-albero-6a-17.c -o <build-temporanea>/756.o
+
+[Compilazione]
+esercizi/08-alberi/139_02-02_albero-chat-albero-6a-17.c:54:12: warning: function 'potaSommaPariRec' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+   54 | static int potaSommaPariRec(Albero *pt, int sumSoFar) {
+      |            ^~~~~~~~~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/756.o -lm -o <build-temporanea>/756.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

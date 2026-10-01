@@ -1,0 +1,55 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c -o <build-temporanea>/243.o
+
+[Compilazione]
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:22:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   22 | ListaAppuntamenti costruisci();
+      |                             ^
+      |                              void
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:28:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:44:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   44 | ListaAppuntamenti costruisci() {
+      |                             ^
+      |                              void
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:45:23: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   45 |     int i, M[8][4] = {8, 20, 9, 56,
+      |                       ^~~~~~~~~~~~
+      |                       {           }
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:46:22: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   46 |                      9, 30, 10, 20,
+      |                      ^~~~~~~~~~~~~
+      |                      {            }
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:47:22: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   47 |                      10, 30, 11, 45,
+      |                      ^~~~~~~~~~~~~~
+      |                      {             }
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:48:22: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   48 |                      11, 57, 12, 20,
+      |                      ^~~~~~~~~~~~~~
+      |                      {             }
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:49:22: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   49 |                      14, 40, 15, 20,
+      |                      ^~~~~~~~~~~~~~
+      |                      {             }
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:50:22: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   50 |                      15, 20, 16, 12,
+      |                      ^~~~~~~~~~~~~~
+      |                      {             }
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:51:22: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   51 |                      16, 30, 17, 15,
+      |                      ^~~~~~~~~~~~~~
+      |                      {             }
+esercizi/06-struct-e-file/044_26-01_alberi-ancora-ancora.c:52:22: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   52 |                      17, 10, 18, 30};
+      |                      ^~~~~~~~~~~~~~
+      |                      {             }
+11 warnings generated.
+
+$ cc <build-temporanea>/243.o -lm -o <build-temporanea>/243.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

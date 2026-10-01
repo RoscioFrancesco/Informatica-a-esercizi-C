@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/180_10-02_tde-2-liste-9.c -o <build-temporanea>/460.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/460.o -lm -o <build-temporanea>/460.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

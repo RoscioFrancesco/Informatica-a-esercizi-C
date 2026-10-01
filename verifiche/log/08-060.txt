@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/060_25-01_tde-alberi-2.c -o <build-temporanea>/677.o
+
+[Compilazione]
+esercizi/08-alberi/060_25-01_tde-alberi-2.c:20:11: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | Nodo* init();
+      |           ^
+      |            void
+esercizi/08-alberi/060_25-01_tde-alberi-2.c:27:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | int main() {
+      |         ^
+      |          void
+esercizi/08-alberi/060_25-01_tde-alberi-2.c:41:11: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   41 | Nodo* init(){
+      |           ^
+      |            void
+3 warnings generated.
+
+$ cc <build-temporanea>/677.o -lm -o <build-temporanea>/677.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

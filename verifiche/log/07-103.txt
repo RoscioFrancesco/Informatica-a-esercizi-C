@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/103_03-02_liste-3-iterativo-16.c -o <build-temporanea>/383.o
+
+[Compilazione]
+esercizi/07-liste/103_03-02_liste-3-iterativo-16.c:92:14: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   92 |     l = f(l, PAT);
+      |              ^~~
+esercizi/07-liste/103_03-02_liste-3-iterativo-16.c:72:26: note: passing argument to parameter 'parola' here
+   72 | Lista f(Lista head, char parola[]);
+      |                          ^
+esercizi/07-liste/103_03-02_liste-3-iterativo-16.c:118:33: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  118 |                         if(segna==strlen(parola))
+      |                            ~~~~~^ ~~~~~~~~~~~~~~
+esercizi/07-liste/103_03-02_liste-3-iterativo-16.c:171:13: warning: unused variable 'lenmin' [-Wunused-variable]
+  171 |         int lenmin=wrapperminrun(head, parola,&head_min , &finishmin);
+      |             ^~~~~~
+3 warnings generated.
+
+$ cc <build-temporanea>/383.o -lm -o <build-temporanea>/383.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/045_data-non-indicata_fattoriale-binomio-di-newton.c -o <build-temporanea>/44.o
+
+[Compilazione]
+esercizi/01-fondamenti/045_data-non-indicata_fattoriale-binomio-di-newton.c:3:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+    3 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/44.o -lm -o <build-temporanea>/44.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

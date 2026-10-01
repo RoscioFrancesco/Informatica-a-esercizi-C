@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/223_13-02_es-3-backtracking-chat-6.c -o <build-temporanea>/840.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/840.o -lm -o <build-temporanea>/840.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

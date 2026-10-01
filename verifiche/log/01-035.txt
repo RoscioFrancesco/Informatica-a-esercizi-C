@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/035_02-10_stampa-caratteri-compresi.c -o <build-temporanea>/34.o
+
+[Compilazione]
+esercizi/01-fondamenti/035_02-10_stampa-caratteri-compresi.c:12:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   12 | int main() {
+      |         ^
+      |          void
+esercizi/01-fondamenti/035_02-10_stampa-caratteri-compresi.c:24:17: warning: if statement has empty body [-Wempty-body]
+   24 |     if (c1 > c2);
+      |                 ^
+esercizi/01-fondamenti/035_02-10_stampa-caratteri-compresi.c:24:17: note: put the semicolon on a separate line to silence this warning
+esercizi/01-fondamenti/035_02-10_stampa-caratteri-compresi.c:29:17: warning: if statement has empty body [-Wempty-body]
+   29 |     if (c2 > c1);
+      |                 ^
+esercizi/01-fondamenti/035_02-10_stampa-caratteri-compresi.c:29:17: note: put the semicolon on a separate line to silence this warning
+3 warnings generated.
+
+$ cc <build-temporanea>/34.o -lm -o <build-temporanea>/34.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

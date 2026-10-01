@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/019_17-01_giorno-10-tde3-liste.c -o <build-temporanea>/298.o
+
+[Compilazione]
+esercizi/07-liste/019_17-01_giorno-10-tde3-liste.c:101:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  101 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/019_17-01_giorno-10-tde3-liste.c:168:9: warning: unused variable 'max' [-Wunused-variable]
+  168 |     int max=0;
+      |         ^~~
+2 warnings generated.
+
+$ cc <build-temporanea>/298.o -lm -o <build-temporanea>/298.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

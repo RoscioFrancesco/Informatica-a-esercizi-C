@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/071_30-01_liste-n2-chat.c -o <build-temporanea>/351.o
+
+[Compilazione]
+esercizi/07-liste/071_30-01_liste-n2-chat.c:94:17: warning: unused variable 'PREF' [-Wunused-variable]
+   94 |     const char *PREF = "PRE";
+      |                 ^~~~
+esercizi/07-liste/071_30-01_liste-n2-chat.c:95:17: warning: unused variable 'SENT' [-Wunused-variable]
+   95 |     const char *SENT = "STOP";
+      |                 ^~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/351.o -lm -o <build-temporanea>/351.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

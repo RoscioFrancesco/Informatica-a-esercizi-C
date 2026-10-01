@@ -1,0 +1,47 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c -o <build-temporanea>/215.o
+
+[Compilazione]
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:20:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:24:21: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   24 |     char mat[M][M]={'B','R','S','P','E','E','F','A',
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     {                              }
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:25:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   25 |                         'Y','V','K','W','F','H','H','W',
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                              }
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:26:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   26 |                         'J','C','S','I','E','R','R','F',
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                              }
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:27:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   27 |                         'F','V','C','P','L','N','B','Q',
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                              }
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:28:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   28 |                         'P','C','D','F','Y','A','O','P',
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                              }
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:29:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   29 |                         'C','G','W','S','C','Q','O','O',
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                              }
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:30:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   30 |                         'D','H','H','S','L','L','U','I',
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                              }
+esercizi/06-struct-e-file/018_10-11_tde-prima-prova.c:31:25: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   31 |                         'X','R','O','L','E','N','T','Y'};
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         {                              }
+9 warnings generated.
+
+$ cc <build-temporanea>/215.o -lm -o <build-temporanea>/215.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

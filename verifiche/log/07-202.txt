@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/202_13-02_chat-es-7-liste-6.c -o <build-temporanea>/482.o
+
+[Compilazione]
+esercizi/07-liste/202_13-02_chat-es-7-liste-6.c:131:13: warning: unused variable 'count' [-Wunused-variable]
+  131 |         int count=0;
+      |             ^~~~~
+esercizi/07-liste/202_13-02_chat-es-7-liste-6.c:229:9: warning: unused variable 'somma' [-Wunused-variable]
+  229 |     int somma=0;
+      |         ^~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/482.o -lm -o <build-temporanea>/482.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

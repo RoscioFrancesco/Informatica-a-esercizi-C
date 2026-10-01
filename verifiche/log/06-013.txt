@@ -1,0 +1,21 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/013_10-11_appello-sett.c -o <build-temporanea>/210.o
+
+[Compilazione]
+esercizi/06-struct-e-file/013_10-11_appello-sett.c:27:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/013_10-11_appello-sett.c:53:9: warning: unused variable 'M2' [-Wunused-variable]
+   53 |     int M2[N][N] = {
+      |         ^~
+esercizi/06-struct-e-file/013_10-11_appello-sett.c:67:9: warning: unused variable 'M3' [-Wunused-variable]
+   67 |     int M3[N][N] = {
+      |         ^~
+3 warnings generated.
+
+$ cc <build-temporanea>/210.o -lm -o <build-temporanea>/210.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/067_26-01_alberi-sett-24.c -o <build-temporanea>/684.o
+
+[Compilazione]
+esercizi/08-alberi/067_26-01_alberi-sett-24.c:27:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | Albero creaAlbero();
+      |                  ^
+      |                   void
+esercizi/08-alberi/067_26-01_alberi-sett-24.c:32:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   32 | int main() {
+      |         ^
+      |          void
+esercizi/08-alberi/067_26-01_alberi-sett-24.c:49:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   49 | Albero creaAlbero(){Albero t=NULL;in(&t,"Mario Rossi","CEO",120000);in(&t,"Luca Bianchi","Direttore Finanziario",90000);in(&t,"Alessandra Verdi","Direttore Tecnico",85000);in(&t,"Giovanni Neri","Responsabile Marketing",70000);in(&t,"Chiara Esposito","Responsabile HR",65000);in(&t,"Francesco Ricci","Analista Finanziario",55000);in(&t,"Marco Gallo","Ingegnere Software",60000);in(&t,"Paola D'Angelo","Ingegnere Software",62000);in(&t,"Stefania Ferrari","Amministrazione",45000);in(&t,"Simone Pini","Amministrazione",46000);in(&t,"Giorgio Leone","Progettista",55000);in(&t,"Angela Moretti","Progettista",56000);in(&t,"Luca Colombo","Tecnico",48000);in(&t,"Sara Romano","Tecnico",49000);in(&t,"Matteo Fontana","Team Leader",70000);in(&t,"Federica Parisi","Team Leader",71000);in(&t,"Davide Sartori","Analista",50000);in(&t,"Valentina Caruso","Analista",52000);in(&t,"Giulia Greco","Segretaria",35000);in(&t,"Carlo De Luca","Segretaria",36000);return t;}
+      |                  ^
+      |                   void
+3 warnings generated.
+
+$ cc <build-temporanea>/684.o -lm -o <build-temporanea>/684.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

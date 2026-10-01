@@ -1,0 +1,24 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/077_01-03_tde-2-1mz.c -o <build-temporanea>/121.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/077_01-03_tde-2-1mz.c:15:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   15 | int main()
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/077_01-03_tde-2-1mz.c:17:9: warning: unused variable 'M' [-Wunused-variable]
+   17 |     int M[N][N]={
+      |         ^
+esercizi/02-array-e-matrici/077_01-03_tde-2-1mz.c:23:9: warning: unused variable 'array' [-Wunused-variable]
+   23 |     int array[N]={1,1,1,1}; // ovvero 15
+      |         ^~~~~
+esercizi/02-array-e-matrici/077_01-03_tde-2-1mz.c:41:9: warning: unused variable 'j' [-Wunused-variable]
+   41 |     int j=len;
+      |         ^
+4 warnings generated.
+
+$ cc <build-temporanea>/121.o -lm -o <build-temporanea>/121.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

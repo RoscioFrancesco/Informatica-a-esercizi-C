@@ -1,0 +1,26 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/035_17-01_giorno-10-tde1.c -o <build-temporanea>/234.o
+
+[Compilazione]
+esercizi/06-struct-e-file/035_17-01_giorno-10-tde1.c:31:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   31 | Lista costruisci();
+      |                 ^
+      |                  void
+esercizi/06-struct-e-file/035_17-01_giorno-10-tde1.c:37:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   37 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/035_17-01_giorno-10-tde1.c:59:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   59 | Lista costruisci(){
+      |                 ^
+      |                  void
+esercizi/06-struct-e-file/035_17-01_giorno-10-tde1.c:86:9: warning: unused variable 'len2' [-Wunused-variable]
+   86 |     int len2=strlen(stringa2);
+      |         ^~~~
+4 warnings generated.
+
+$ cc <build-temporanea>/234.o -lm -o <build-temporanea>/234.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

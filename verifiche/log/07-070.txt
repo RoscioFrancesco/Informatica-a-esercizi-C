@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/070_30-01_liste-n1-chat.c -o <build-temporanea>/350.o
+
+[Compilazione]
+esercizi/07-liste/070_30-01_liste-n1-chat.c:99:13: warning: unused function 'propertyP' [-Wunused-function]
+   99 | static bool propertyP(const char *w) {
+      |             ^~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/350.o -lm -o <build-temporanea>/350.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

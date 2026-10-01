@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/05-puntatori-e-memoria/009_10-02_es-4-doppi-punt-9.c -o <build-temporanea>/185.o
+
+[Compilazione]
+esercizi/05-puntatori-e-memoria/009_10-02_es-4-doppi-punt-9.c:25:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   25 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/185.o -lm -o <build-temporanea>/185.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

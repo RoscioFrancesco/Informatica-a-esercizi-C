@@ -1,0 +1,39 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/045_22-01_preparazione-tde.c -o <build-temporanea>/662.o
+
+[Compilazione]
+esercizi/08-alberi/045_22-01_preparazione-tde.c:22:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   22 | Albero costruisci1();
+      |                   ^
+      |                    void
+esercizi/08-alberi/045_22-01_preparazione-tde.c:23:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   23 | Albero costruisci2();
+      |                   ^
+      |                    void
+esercizi/08-alberi/045_22-01_preparazione-tde.c:24:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   24 | Albero costruisci3();
+      |                   ^
+      |                    void
+esercizi/08-alberi/045_22-01_preparazione-tde.c:30:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   30 | int main() {
+      |         ^
+      |          void
+esercizi/08-alberi/045_22-01_preparazione-tde.c:54:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   54 | Albero costruisci1() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/045_22-01_preparazione-tde.c:64:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   64 | Albero costruisci2() {
+      |                   ^
+      |                    void
+esercizi/08-alberi/045_22-01_preparazione-tde.c:74:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   74 | Albero costruisci3() {
+      |                   ^
+      |                    void
+7 warnings generated.
+
+$ cc <build-temporanea>/662.o -lm -o <build-temporanea>/662.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

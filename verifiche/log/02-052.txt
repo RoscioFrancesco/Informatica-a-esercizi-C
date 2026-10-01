@@ -1,0 +1,26 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/052_20-02_o-tde-3.c -o <build-temporanea>/96.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/052_20-02_o-tde-3.c:80:13: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   80 |     if(segna==strlen(parola)-1)
+      |        ~~~~~^ ~~~~~~~~~~~~~~~~
+esercizi/02-array-e-matrici/052_20-02_o-tde-3.c:111:20: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  111 |     return wrapper(S, M);
+      |                    ^
+esercizi/02-array-e-matrici/052_20-02_o-tde-3.c:94:18: note: passing argument to parameter 'parola' here
+   94 | int wrapper(char parola[],char mat[N][N])
+      |                  ^
+esercizi/02-array-e-matrici/052_20-02_o-tde-3.c:109:47: warning: unused parameter 'i' [-Wunused-parameter]
+  109 | int verifica(char M[N][N], const char *S, int i, int j)
+      |                                               ^
+esercizi/02-array-e-matrici/052_20-02_o-tde-3.c:109:54: warning: unused parameter 'j' [-Wunused-parameter]
+  109 | int verifica(char M[N][N], const char *S, int i, int j)
+      |                                                      ^
+4 warnings generated.
+
+$ cc <build-temporanea>/96.o -lm -o <build-temporanea>/96.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

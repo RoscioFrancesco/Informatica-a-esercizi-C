@@ -1,0 +1,27 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/020_16-11_tentativo-1.c -o <build-temporanea>/217.o
+
+[Compilazione]
+esercizi/06-struct-e-file/020_16-11_tentativo-1.c:19:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/020_16-11_tentativo-1.c:20:20: warning: unused variable 'f_0' [-Wunused-variable]
+   20 |     float delta_t, f_0; // f_0 è cio che volgiamo trovare
+      |                    ^~~
+esercizi/06-struct-e-file/020_16-11_tentativo-1.c:21:10: warning: unused variable 'elenco_nodi' [-Wunused-variable]
+   21 |     nodo elenco_nodi[N];
+      |          ^~~~~~~~~~~
+esercizi/06-struct-e-file/020_16-11_tentativo-1.c:26:11: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+   26 |     float p;
+      |           ^
+esercizi/06-struct-e-file/020_16-11_tentativo-1.c:27:11: warning: unused variable 'S_t' [-Wunused-variable]
+   27 |     float S_t[N];
+      |           ^~~
+5 warnings generated.
+
+$ cc <build-temporanea>/217.o -lm -o <build-temporanea>/217.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

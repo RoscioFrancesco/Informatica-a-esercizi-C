@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/082_01-02_albero-chat-es3-liste-18.c -o <build-temporanea>/362.o
+
+[Compilazione]
+esercizi/07-liste/082_01-02_albero-chat-es3-liste-18.c:162:1: warning: '/*' within block comment [-Wcomment]
+  162 | /* =========================
+      | ^
+1 warning generated.
+
+$ cc <build-temporanea>/362.o -lm -o <build-temporanea>/362.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

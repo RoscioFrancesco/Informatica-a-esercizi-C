@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/127_05-02_chat-ricorsione-es-1-14.c -o <build-temporanea>/407.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/407.o -lm -o <build-temporanea>/407.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

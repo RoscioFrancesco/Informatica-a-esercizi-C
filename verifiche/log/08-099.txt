@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/099_30-01_alberi-es-4-b-chat.c -o <build-temporanea>/716.o
+
+[Compilazione]
+esercizi/08-alberi/099_30-01_alberi-es-4-b-chat.c:58:20: warning: unused function 'parityStr' [-Wunused-function]
+   58 | static const char* parityStr(int x) {
+      |                    ^~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/716.o -lm -o <build-temporanea>/716.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

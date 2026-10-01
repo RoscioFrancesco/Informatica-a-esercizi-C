@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/306_06-03_es-2-6mz.c -o <build-temporanea>/586.o
+
+[Compilazione]
+esercizi/07-liste/306_06-03_es-2-6mz.c:60:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   60 | int main() {
+      |         ^
+      |          void
+esercizi/07-liste/306_06-03_es-2-6mz.c:71:11: warning: unused variable 'pz' [-Wunused-variable]
+   71 |     float pz=a.l->prezzo;
+      |           ^~
+2 warnings generated.
+
+$ cc <build-temporanea>/586.o -lm -o <build-temporanea>/586.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

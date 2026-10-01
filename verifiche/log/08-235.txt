@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/235_15-02_es-1-chat-alberi-4.c -o <build-temporanea>/852.o
+
+[Compilazione]
+esercizi/08-alberi/235_15-02_es-1-chat-alberi-4.c:213:19: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  213 |     for(int i=0; i<(strlen(parola)); i++)
+      |                  ~^ ~~~~~~~~~~~~~~
+esercizi/08-alberi/235_15-02_es-1-chat-alberi-4.c:39:12: warning: unused function 'isLeaf' [-Wunused-function]
+   39 | static int isLeaf(tree t) {
+      |            ^~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/852.o -lm -o <build-temporanea>/852.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

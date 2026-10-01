@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/110_04-02_cancella-tripletta-ric-15.c -o <build-temporanea>/390.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/390.o -lm -o <build-temporanea>/390.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

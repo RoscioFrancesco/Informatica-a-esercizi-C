@@ -1,0 +1,34 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/031_29-11_liste-campi-1-pag5.c -o <build-temporanea>/230.o
+
+[Compilazione]
+esercizi/06-struct-e-file/031_29-11_liste-campi-1-pag5.c:22:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   22 | ListaDiElem crea1();
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/031_29-11_liste-campi-1-pag5.c:23:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   23 | ListaDiElem crea2();
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/031_29-11_liste-campi-1-pag5.c:27:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | int main() {
+      |         ^
+      |          void
+esercizi/06-struct-e-file/031_29-11_liste-campi-1-pag5.c:28:17: warning: unused variable 'lista' [-Wunused-variable]
+   28 |     ListaDiElem lista=NULL,lista1=NULL,lista2=NULL;
+      |                 ^~~~~
+esercizi/06-struct-e-file/031_29-11_liste-campi-1-pag5.c:66:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   66 | ListaDiElem crea1() {
+      |                  ^
+      |                   void
+esercizi/06-struct-e-file/031_29-11_liste-campi-1-pag5.c:85:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   85 | ListaDiElem crea2() {
+      |                  ^
+      |                   void
+6 warnings generated.
+
+$ cc <build-temporanea>/230.o -lm -o <build-temporanea>/230.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

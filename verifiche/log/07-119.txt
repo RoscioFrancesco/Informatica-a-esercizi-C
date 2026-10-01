@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/119_04-02_tde-carta-folding-15.c -o <build-temporanea>/399.o
+
+[Compilazione]
+esercizi/07-liste/119_04-02_tde-carta-folding-15.c:81:11: warning: unused variable 'l2' [-Wunused-variable]
+   81 |     lista l2 = fromArray(a2, 6);
+      |           ^~
+1 warning generated.
+
+$ cc <build-temporanea>/399.o -lm -o <build-temporanea>/399.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

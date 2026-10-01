@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/156_08-02_tde-9-liste-11.c -o <build-temporanea>/436.o
+
+[Compilazione]
+esercizi/07-liste/156_08-02_tde-9-liste-11.c:81:20: warning: unused function 'nuovaStat' [-Wunused-function]
+   81 | static Statistiche nuovaStat(const char *link, int tot) {
+      |                    ^~~~~~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/436.o -lm -o <build-temporanea>/436.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

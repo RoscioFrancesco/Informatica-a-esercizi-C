@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/069_28-02_tde-1-28.c -o <build-temporanea>/268.o
+
+[Compilazione]
+esercizi/06-struct-e-file/069_28-02_tde-1-28.c:100:11: warning: argument 'M' of type 'int[5][5]' with mismatched bound [-Warray-parameter]
+  100 | int f(int M[N][N])
+      |           ^
+esercizi/06-struct-e-file/069_28-02_tde-1-28.c:17:11: note: previously declared as 'int[][5]' here
+   17 | int f(int M[][N]);
+      |           ^
+1 warning generated.
+
+$ cc <build-temporanea>/268.o -lm -o <build-temporanea>/268.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

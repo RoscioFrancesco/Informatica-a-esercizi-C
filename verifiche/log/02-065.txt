@@ -1,0 +1,11 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/065_27-02_es-tde-11-27.c -o <build-temporanea>/109.o
+
+[Compilazione]
+Nessun diagnostico.
+
+$ cc <build-temporanea>/109.o -lm -o <build-temporanea>/109.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila

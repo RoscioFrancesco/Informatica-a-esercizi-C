@@ -1,0 +1,26 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/043_25-01_postino-salvia-con-while.c -o <build-temporanea>/242.o
+
+[Compilazione]
+esercizi/06-struct-e-file/043_25-01_postino-salvia-con-while.c:26:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   26 | Lista costruisci();
+      |                 ^
+      |                  void
+esercizi/06-struct-e-file/043_25-01_postino-salvia-con-while.c:32:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   32 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/043_25-01_postino-salvia-con-while.c:56:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   56 | Lista costruisci(){
+      |                 ^
+      |                  void
+esercizi/06-struct-e-file/043_25-01_postino-salvia-con-while.c:83:9: warning: unused variable 'len2' [-Wunused-variable]
+   83 |     int len2=strlen(parola2);
+      |         ^~~~
+4 warnings generated.
+
+$ cc <build-temporanea>/242.o -lm -o <build-temporanea>/242.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

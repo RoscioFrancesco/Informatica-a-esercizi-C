@@ -1,0 +1,39 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/03-stringhe/004_10-11_tde-feb-2023.c -o <build-temporanea>/152.o
+
+[Compilazione]
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:21:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | int main(){
+      |         ^
+      |          void
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:25:13: warning: unused variable 'acr2' [-Wunused-variable]
+   25 |     Stringa acr2="AT", txt2 = "Azienda Trasporti Milanesi";  //NO
+      |             ^~~~
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:25:24: warning: unused variable 'txt2' [-Wunused-variable]
+   25 |     Stringa acr2="AT", txt2 = "Azienda Trasporti Milanesi";  //NO
+      |                        ^~~~
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:26:13: warning: unused variable 'acr3' [-Wunused-variable]
+   26 |     Stringa acr3="ATM", txt3 = "Azienda Trasporti Lombardi"; //NO
+      |             ^~~~
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:26:25: warning: unused variable 'txt3' [-Wunused-variable]
+   26 |     Stringa acr3="ATM", txt3 = "Azienda Trasporti Lombardi"; //NO
+      |                         ^~~~
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:27:13: warning: unused variable 'acr4' [-Wunused-variable]
+   27 |     Stringa acr4="ATMK", txt4 = "Azienda Trasporti Milanesi";//NO
+      |             ^~~~
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:27:26: warning: unused variable 'txt4' [-Wunused-variable]
+   27 |     Stringa acr4="ATMK", txt4 = "Azienda Trasporti Milanesi";//NO
+      |                          ^~~~
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:28:13: warning: unused variable 'acr5' [-Wunused-variable]
+   28 |     Stringa acr5="ATM", txt5 = "Azienda Trasporti Milanesi Lombardi"; //NO
+      |             ^~~~
+esercizi/03-stringhe/004_10-11_tde-feb-2023.c:28:25: warning: unused variable 'txt5' [-Wunused-variable]
+   28 |     Stringa acr5="ATM", txt5 = "Azienda Trasporti Milanesi Lombardi"; //NO
+      |                         ^~~~
+9 warnings generated.
+
+$ cc <build-temporanea>/152.o -lm -o <build-temporanea>/152.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

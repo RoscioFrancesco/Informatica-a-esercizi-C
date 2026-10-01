@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/126_04-02_vett-dinamici-2-15.c -o <build-temporanea>/406.o
+
+[Compilazione]
+esercizi/07-liste/126_04-02_vett-dinamici-2-15.c:178:19: warning: unused parameter 'start' [-Wunused-parameter]
+  178 | void blocco(Lista start, Lista *finish, int *count) // finish segna il primo nodo pari dopo il blocco dispari e count indica il numero di elementi dispari nel blocco
+      |                   ^
+1 warning generated.
+
+$ cc <build-temporanea>/406.o -lm -o <build-temporanea>/406.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

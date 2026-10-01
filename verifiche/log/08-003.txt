@@ -1,0 +1,59 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c -o <build-temporanea>/620.o
+
+[Compilazione]
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:33:16: warning: expected ';' at end of declaration list
+   33 |     int cammino
+      |                ^
+      |                ;
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:44:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   44 | Tree costruisci1();
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:45:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   45 | Tree costruisci2();
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:46:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   46 | Tree costruisci3();
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:47:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   47 | Tree costruisci4();
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:48:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   48 | Tree costruisci5();
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:56:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   56 | int main(){
+      |         ^
+      |          void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:124:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  124 | Tree costruisci1(){Tree r=nN("GG",0);r->left=nN("CC",50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->left->right=nN("AA",90);r->right->left=nN("GG",30);r->right->right=nN("BB",20);return r;}
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:125:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  125 | Tree costruisci2(){Tree r=nN("GG",0);r->left=nN("CC",50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->left->right=nN("AA",90);r->right->left=nN("GG",30);r->right->right = nN("BB",50);return r;}
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:126:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  126 | Tree costruisci3(){Tree r=nN("GG",0);r->left=nN("CC",50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->right->left=nN("GG",30);r->right->right=nN("BB",20);return r;}
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:127:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  127 | Tree costruisci4(){Tree r=nN("GG",0);r->left=nN("CC", 50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->left->right=nN("AA",90);r->right->left=nN("GG",30);r->right->right=nN("BB",20);r->right->right->right=nN("BB",50);r->right->right->left=nN("DD",10);return r;}
+      |                 ^
+      |                  void
+esercizi/08-alberi/003_30-11_tde-alberi-2024-gen.c:128:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  128 | Tree costruisci5(){Tree r=nN("GG",0);r->left=nN("CC",50);r->right=nN("GG",80);r->left->left=nN("CC",100);r->left->right=nN("AA",90);r->right->left=nN("HH",30);r->right->right=nN("BB",20);return r;}
+      |                 ^
+      |                  void
+12 warnings generated.
+
+$ cc <build-temporanea>/620.o -lm -o <build-temporanea>/620.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

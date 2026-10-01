@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/070_28-02_tde-9-28.c -o <build-temporanea>/269.o
+
+[Compilazione]
+esercizi/06-struct-e-file/070_28-02_tde-9-28.c:164:24: warning: unused parameter 'cor' [-Wunused-parameter]
+  164 | void f(Esami es, Corsi cor, Studenti stu, Studenti stuBravi)
+      |                        ^
+1 warning generated.
+
+$ cc <build-temporanea>/269.o -lm -o <build-temporanea>/269.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,39 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/025_17-01_giorno-10-tde3-alberi.c -o <build-temporanea>/642.o
+
+[Compilazione]
+esercizi/08-alberi/025_17-01_giorno-10-tde3-alberi.c:19:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | Albero costruisci1();
+      |                   ^
+      |                    void
+esercizi/08-alberi/025_17-01_giorno-10-tde3-alberi.c:20:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | Albero costruisci2();
+      |                   ^
+      |                    void
+esercizi/08-alberi/025_17-01_giorno-10-tde3-alberi.c:21:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | Albero costruisci3();
+      |                   ^
+      |                    void
+esercizi/08-alberi/025_17-01_giorno-10-tde3-alberi.c:25:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   25 | int main() {
+      |         ^
+      |          void
+esercizi/08-alberi/025_17-01_giorno-10-tde3-alberi.c:48:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   48 | Albero costruisci1(){Albero r=nN(2);r->left=nN(1);r->right=nN(5);r->left->left=nN(0);r->left->right=nN(2);r->right->right=nN(2);return r;}
+      |                   ^
+      |                    void
+esercizi/08-alberi/025_17-01_giorno-10-tde3-alberi.c:49:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   49 | Albero costruisci2(){Albero r=nN(5);r->left=nN(1);r->right=nN(5);r->left->left=nN(0);r->left->right=nN(2);return r;}
+      |                   ^
+      |                    void
+esercizi/08-alberi/025_17-01_giorno-10-tde3-alberi.c:50:19: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   50 | Albero costruisci3(){Albero r=nN(2);r->left=nN(5);r->left->left=nN(1);r->left->right=nN(2);return r;}
+      |                   ^
+      |                    void
+7 warnings generated.
+
+$ cc <build-temporanea>/642.o -lm -o <build-temporanea>/642.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

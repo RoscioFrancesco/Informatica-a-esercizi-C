@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/099_03-02_e6-iterativo-16.c -o <build-temporanea>/379.o
+
+[Compilazione]
+esercizi/07-liste/099_03-02_e6-iterativo-16.c:82:13: warning: unused function 'firstCharCI' [-Wunused-function]
+   82 | static char firstCharCI(const char *w) {
+      |             ^~~~~~~~~~~
+esercizi/07-liste/099_03-02_e6-iterativo-16.c:116:14: warning: unused function 'eliminaRunMassima' [-Wunused-function]
+  116 | static Lista eliminaRunMassima(Lista l) {
+      |              ^~~~~~~~~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/379.o -lm -o <build-temporanea>/379.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

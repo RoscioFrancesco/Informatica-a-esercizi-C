@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/130_05-02_tde-8-liste-14.c -o <build-temporanea>/410.o
+
+[Compilazione]
+esercizi/07-liste/130_05-02_tde-8-liste-14.c:177:30: warning: unused variable 'temp' [-Wunused-variable]
+  177 |                 ListaOfferte temp=Lis->next;
+      |                              ^~~~
+1 warning generated.
+
+$ cc <build-temporanea>/410.o -lm -o <build-temporanea>/410.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,31 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/02-array-e-matrici/029_02-11_esercizio-informatica.c -o <build-temporanea>/73.o
+
+[Compilazione]
+esercizi/02-array-e-matrici/029_02-11_esercizio-informatica.c:19:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   19 | int leggiInt();
+      |             ^
+      |              void
+esercizi/02-array-e-matrici/029_02-11_esercizio-informatica.c:24:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   24 | int main() {
+      |         ^
+      |          void
+esercizi/02-array-e-matrici/029_02-11_esercizio-informatica.c:25:9: warning: unused variable 'i' [-Wunused-variable]
+   25 |     int i, array[N], dim, start, pezzo;
+      |         ^
+esercizi/02-array-e-matrici/029_02-11_esercizio-informatica.c:25:34: warning: unused variable 'pezzo' [-Wunused-variable]
+   25 |     int i, array[N], dim, start, pezzo;
+      |                                  ^~~~~
+esercizi/02-array-e-matrici/029_02-11_esercizio-informatica.c:19:5: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent definition [-Wdeprecated-non-prototype]
+   19 | int leggiInt();
+      |     ^
+esercizi/02-array-e-matrici/029_02-11_esercizio-informatica.c:36:5: note: conflicting prototype is here
+   36 | int leggiInt(int i)
+      |     ^
+5 warnings generated.
+
+$ cc <build-temporanea>/73.o -lm -o <build-temporanea>/73.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

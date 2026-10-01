@@ -1,0 +1,15 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/01-fondamenti/005_25-09_cambio-variabile-metodo-furbo.c -o <build-temporanea>/4.o
+
+[Compilazione]
+esercizi/01-fondamenti/005_25-09_cambio-variabile-metodo-furbo.c:10:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   10 | int main() {
+      |         ^
+      |          void
+1 warning generated.
+
+$ cc <build-temporanea>/4.o -lm -o <build-temporanea>/4.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

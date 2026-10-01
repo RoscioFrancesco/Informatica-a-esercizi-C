@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/127_02-02_8a-17.c -o <build-temporanea>/744.o
+
+[Compilazione]
+esercizi/08-alberi/127_02-02_8a-17.c:68:9: warning: unused variable 'livello' [-Wunused-variable]
+   68 |     int livello=0;
+      |         ^~~~~~~
+esercizi/08-alberi/127_02-02_8a-17.c:53:12: warning: unused function 'isLeaf' [-Wunused-function]
+   53 | static int isLeaf(Albero t) {
+      |            ^~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/744.o -lm -o <build-temporanea>/744.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,23 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/275_19-02_esame-es-1.c -o <build-temporanea>/555.o
+
+[Compilazione]
+esercizi/07-liste/275_19-02_esame-es-1.c:31:39: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   31 | ListaVideogiochi creaCatalogoDiEsempio();
+      |                                       ^
+      |                                        void
+esercizi/07-liste/275_19-02_esame-es-1.c:42:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   42 | int main(){
+      |         ^
+      |          void
+esercizi/07-liste/275_19-02_esame-es-1.c:155:39: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  155 | ListaVideogiochi creaCatalogoDiEsempio(){
+      |                                       ^
+      |                                        void
+3 warnings generated.
+
+$ cc <build-temporanea>/555.o -lm -o <build-temporanea>/555.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

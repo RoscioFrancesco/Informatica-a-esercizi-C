@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/196_10-02_tde-1-alberi-9.c -o <build-temporanea>/813.o
+
+[Compilazione]
+esercizi/08-alberi/196_10-02_tde-1-alberi-9.c:52:12: warning: unused function 'f_aux' [-Wunused-function]
+   52 | static int f_aux(tree t, parola p); /* TODO: puoi usarla nella tua soluzione */
+      |            ^~~~~
+1 warning generated.
+
+$ cc <build-temporanea>/813.o -lm -o <build-temporanea>/813.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

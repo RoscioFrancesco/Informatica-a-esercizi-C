@@ -1,0 +1,14 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/098_30-01_alberi-es-2-b-chat.c -o <build-temporanea>/715.o
+
+[Compilazione]
+esercizi/08-alberi/098_30-01_alberi-es-2-b-chat.c:57:38: warning: extra ';' outside of a function [-Wextra-semi]
+   57 | bool camminoMediaCrescente(Albero t);;
+      |                                      ^
+1 warning generated.
+
+$ cc <build-temporanea>/715.o -lm -o <build-temporanea>/715.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

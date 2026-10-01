@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/10-giochi/001_27-09_carta-forbice-sasso.c -o <build-temporanea>/894.o
+
+[Compilazione]
+esercizi/10-giochi/001_27-09_carta-forbice-sasso.c:10:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   10 | int main() {
+      |         ^
+      |          void
+esercizi/10-giochi/001_27-09_carta-forbice-sasso.c:11:18: warning: unused variable 'vincitore' [-Wunused-variable]
+   11 |     char p1, p2, vincitore, continuare;
+      |                  ^~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/894.o -lm -o <build-temporanea>/894.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

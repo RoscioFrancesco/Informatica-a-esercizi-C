@@ -1,0 +1,17 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/072_30-01_liste-n3-chat.c -o <build-temporanea>/352.o
+
+[Compilazione]
+esercizi/07-liste/072_30-01_liste-n3-chat.c:214:9: warning: unused variable 'len' [-Wunused-variable]
+  214 |     int len=strlen(parola);
+      |         ^~~
+esercizi/07-liste/072_30-01_liste-n3-chat.c:86:12: warning: unused function 'matchRegex' [-Wunused-function]
+   86 | static int matchRegex(const char *pattern, const char *text) {
+      |            ^~~~~~~~~~
+2 warnings generated.
+
+$ cc <build-temporanea>/352.o -lm -o <build-temporanea>/352.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

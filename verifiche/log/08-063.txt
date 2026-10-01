@@ -1,0 +1,37 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/08-alberi/063_25-01_tde-alberi-2-new.c -o <build-temporanea>/680.o
+
+[Compilazione]
+esercizi/08-alberi/063_25-01_tde-alberi-2-new.c:20:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   20 | Tree costruisci1();
+      |                 ^
+      |                  void
+esercizi/08-alberi/063_25-01_tde-alberi-2-new.c:21:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | Tree costruisci2();
+      |                 ^
+      |                  void
+esercizi/08-alberi/063_25-01_tde-alberi-2-new.c:25:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   25 | int main() {
+      |         ^
+      |          void
+esercizi/08-alberi/063_25-01_tde-alberi-2-new.c:61:17: warning: data argument not used by format string [-Wformat-extra-args]
+   61 |     printf("(", albero->c);
+      |            ~~~  ^
+esercizi/08-alberi/063_25-01_tde-alberi-2-new.c:70:17: warning: data argument not used by format string [-Wformat-extra-args]
+   70 |     printf(")", albero->c);
+      |            ~~~  ^
+esercizi/08-alberi/063_25-01_tde-alberi-2-new.c:76:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   76 | Tree costruisci1(){
+      |                 ^
+      |                  void
+esercizi/08-alberi/063_25-01_tde-alberi-2-new.c:84:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   84 | Tree costruisci2(){
+      |                 ^
+      |                  void
+7 warnings generated.
+
+$ cc <build-temporanea>/680.o -lm -o <build-temporanea>/680.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

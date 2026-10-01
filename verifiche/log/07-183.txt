@@ -1,0 +1,20 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/183_11-02_es-1-chat-liste-8.c -o <build-temporanea>/463.o
+
+[Compilazione]
+esercizi/07-liste/183_11-02_es-1-chat-liste-8.c:215:21: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+  215 |                 int count=0;
+      |                     ^
+esercizi/07-liste/183_11-02_es-1-chat-liste-8.c:208:11: warning: variable 'prec' set but not used [-Wunused-but-set-variable]
+  208 |     Lista prec=NULL;
+      |           ^
+esercizi/07-liste/183_11-02_es-1-chat-liste-8.c:70:12: warning: unused function 'fortementeCompatibili' [-Wunused-function]
+   70 | static int fortementeCompatibili(const char *p, const char *q) {
+      |            ^~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+
+$ cc <build-temporanea>/463.o -lm -o <build-temporanea>/463.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

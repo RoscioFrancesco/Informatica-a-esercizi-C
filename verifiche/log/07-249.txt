@@ -1,0 +1,18 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/07-liste/249_16-02_es3-chat-3.c -o <build-temporanea>/529.o
+
+[Compilazione]
+esercizi/07-liste/249_16-02_es3-chat-3.c:70:21: warning: extra ';' outside of a function [-Wextra-semi]
+   70 | void f(lista *head);;
+      |                     ^
+esercizi/07-liste/249_16-02_es3-chat-3.c:94:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   94 | int main() {
+      |         ^
+      |          void
+2 warnings generated.
+
+$ cc <build-temporanea>/529.o -lm -o <build-temporanea>/529.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

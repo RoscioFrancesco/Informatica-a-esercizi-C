@@ -1,0 +1,20 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/077_data-non-indicata_compitino-parziale.c -o <build-temporanea>/276.o
+
+[Compilazione]
+esercizi/06-struct-e-file/077_data-non-indicata_compitino-parziale.c:61:9: warning: unused variable 'scorripasto' [-Wunused-variable]
+   61 |     int scorripasto=0;
+      |         ^~~~~~~~~~~
+esercizi/06-struct-e-file/077_data-non-indicata_compitino-parziale.c:77:9: warning: unused variable 'scorriportate' [-Wunused-variable]
+   77 |     int scorriportate=0;
+      |         ^~~~~~~~~~~~~
+esercizi/06-struct-e-file/077_data-non-indicata_compitino-parziale.c:90:9: warning: unused variable 'i' [-Wunused-variable]
+   90 |     int i;
+      |         ^
+3 warnings generated.
+
+$ cc <build-temporanea>/276.o -lm -o <build-temporanea>/276.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

@@ -1,0 +1,38 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/055_24-02_es-4.c -o <build-temporanea>/254.o
+
+[Compilazione]
+esercizi/06-struct-e-file/055_24-02_es-4.c:41:27: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   41 | MercatoRionale inizializza();
+      |                           ^
+      |                            void
+esercizi/06-struct-e-file/055_24-02_es-4.c:46:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   46 | int main()
+      |         ^
+      |          void
+esercizi/06-struct-e-file/055_24-02_es-4.c:51:16: warning: unused variable 'pesce' [-Wunused-variable]
+   51 |     Bancarella pesce, noPesce;
+      |                ^~~~~
+esercizi/06-struct-e-file/055_24-02_es-4.c:51:23: warning: unused variable 'noPesce' [-Wunused-variable]
+   51 |     Bancarella pesce, noPesce;
+      |                       ^~~~~~~
+esercizi/06-struct-e-file/055_24-02_es-4.c:52:9: warning: unused variable 'res' [-Wunused-variable]
+   52 |     int res, n=3;
+      |         ^~~
+esercizi/06-struct-e-file/055_24-02_es-4.c:52:14: warning: unused variable 'n' [-Wunused-variable]
+   52 |     int res, n=3;
+      |              ^
+esercizi/06-struct-e-file/055_24-02_es-4.c:53:11: warning: unused variable 'costo' [-Wunused-variable]
+   53 |     float costo;
+      |           ^~~~~
+esercizi/06-struct-e-file/055_24-02_es-4.c:73:27: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   73 | MercatoRionale inizializza()
+      |                           ^
+      |                            void
+8 warnings generated.
+
+$ cc <build-temporanea>/254.o -lm -o <build-temporanea>/254.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi

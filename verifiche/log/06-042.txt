@@ -1,0 +1,35 @@
+$ cc -std=c11 -Wall -Wextra -Wpedantic -fdiagnostics-color=never -c esercizi/06-struct-e-file/042_24-01_salvia-postino-prova.c -o <build-temporanea>/241.o
+
+[Compilazione]
+esercizi/06-struct-e-file/042_24-01_salvia-postino-prova.c:27:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   27 | Lista costruisci();
+      |                 ^
+      |                  void
+esercizi/06-struct-e-file/042_24-01_salvia-postino-prova.c:32:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   32 | int main(){
+      |         ^
+      |          void
+esercizi/06-struct-e-file/042_24-01_salvia-postino-prova.c:55:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   55 | Lista costruisci(){
+      |                 ^
+      |                  void
+esercizi/06-struct-e-file/042_24-01_salvia-postino-prova.c:99:22: warning: incompatible pointer types passing 'Lista' (aka 'struct EL *') to parameter of type 'char *' [-Wincompatible-pointer-types]
+   99 |         if(sonobelli(lista1, lista1->prox))
+      |                      ^~~~~~
+esercizi/06-struct-e-file/042_24-01_salvia-postino-prova.c:79:20: note: passing argument to parameter 'stringa1' here
+   79 | int sonobelli(char stringa1[], char stringa2[])
+      |                    ^
+esercizi/06-struct-e-file/042_24-01_salvia-postino-prova.c:99:30: warning: incompatible pointer types passing 'struct EL *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+   99 |         if(sonobelli(lista1, lista1->prox))
+      |                              ^~~~~~~~~~~~
+esercizi/06-struct-e-file/042_24-01_salvia-postino-prova.c:79:37: note: passing argument to parameter 'stringa2' here
+   79 | int sonobelli(char stringa1[], char stringa2[])
+      |                                     ^
+5 warnings generated.
+
+$ cc <build-temporanea>/241.o -lm -o <build-temporanea>/241.out
+
+[Link]
+Nessun diagnostico.
+
+Esito: compila-con-avvisi
