@@ -4,9 +4,7 @@ Raccolta personale di esercizi, tentativi e varianti svolti durante lo studio di
 
 **866 file C · 4 header · 11 sezioni · 855 programmi compilati e collegati**
 
-[Percorso per iniziare](PERCORSO.md) · [Indice completo](INDICE.md) · [Come compilare](GUIDA.md) · [Stato della raccolta](verifiche/README.md)
-
-Per mettere online la raccolta, segui [Pubblicare su GitHub](PUBBLICARE.md).
+[Percorso per iniziare](PERCORSO.md) · [Indice completo](INDICE.md) · [Come compilare](#primo-programma) · [Stato della raccolta](verifiche/README.md)
 
 ## Da dove iniziare
 
@@ -42,7 +40,7 @@ cc -std=c11 -Wall -Wextra -Wpedantic esercizi/01-fondamenti/020_30-09_es-1-lab.c
 ./build/somma
 ```
 
-Inserisci `7` e `5`: il programma stampa `7+5=12`. Su Windows l'eseguibile può essere chiamato `somma.exe`; la [guida](GUIDA.md) spiega anche come lavorare da un IDE.
+Inserisci `7` e `5`: il programma stampa `7+5=12`. Su Windows l'eseguibile può essere chiamato `somma.exe`.
 
 **Compila un file C alla volta.** Molti programmi hanno un proprio `main`: non sono parti di una singola applicazione.
 

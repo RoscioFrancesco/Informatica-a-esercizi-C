@@ -1,6 +1,6 @@
 # Un percorso per iniziare
 
-[README](README.md) · [Guida alla compilazione](GUIDA.md)
+[README](README.md)
 
 Otto esempi brevi, scelti per attraversare alcuni argomenti della raccolta. Sono stati compilati ed eseguiti sui casi riportati sotto; la verifica è limitata a questi input e non copre tutti i casi limite.
 
