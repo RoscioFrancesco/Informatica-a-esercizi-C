@@ -4,7 +4,7 @@ Raccolta personale di esercizi, tentativi e varianti svolti durante lo studio di
 
 **866 file C · 4 header · 11 sezioni · 855 programmi compilati e collegati**
 
-[Percorso per iniziare](PERCORSO.md) · [Indice completo](INDICE.md) · [Come compilare](#primo-programma) · [Stato della raccolta](verifiche/README.md)
+[Percorso per iniziare](PERCORSO.md) · [Indice completo](INDICE.md) · [Verifiche](verifiche/README.md)
 
 ## Da dove iniziare
 
@@ -29,38 +29,6 @@ Per esercitarti, scegli un programma dall’indice e prova a ricostruire il prob
 | [Frammenti e file vuoti](esercizi/11-frammenti-e-file-vuoti/README.md) | 0 |
 
 La suddivisione è stata ricavata automaticamente da nomi e contenuti dei sorgenti. Un esercizio può usare più concetti: per esempio, una visita ricorsiva rimane nella sezione alberi. I tag del [catalogo JSON](catalogo.json) aiutano a trovare questi collegamenti. Le categorie sono un punto di partenza e possono essere perfezionate.
-
-## Primo programma
-
-Dalla cartella principale della repository, con un compilatore C disponibile:
-
-```sh
-mkdir -p build
-cc -std=c11 -Wall -Wextra -Wpedantic esercizi/01-fondamenti/020_30-09_es-1-lab.c -o build/somma
-./build/somma
-```
-
-Inserisci `7` e `5`: il programma stampa `7+5=12`. Su Windows l'eseguibile può essere chiamato `somma.exe`.
-
-**Compila un file C alla volta.** Molti programmi hanno un proprio `main`: non sono parti di una singola applicazione.
-
-## Stato delle verifiche
-
-| Esito | File C |
-|---|---:|
-| Compilazione e link riusciti, senza avvisi con i flag usati | 263 |
-| Compilazione e link riusciti, con avvisi | 592 |
-| Errori di compilazione | 0 |
-| Errori di link | 0 |
-| Frammenti compilabili come oggetti, senza `main` | 11 |
-| File senza codice attivo | 0 |
-| **Totale** | **866** |
-
-Verifica con Apple clang version 17.0.0 (clang-1700.0.13.5) su macOS, C11, `-Wall -Wextra -Wpedantic`; link con `-lm`. I risultati possono differire con altri compilatori.
-
-**Compilare non dimostra che una soluzione sia corretta o completa.** Tutti i sorgenti C sono stati compilati separatamente; solo gli otto esempi del percorso iniziale sono stati anche eseguiti, ciascuno su un singolo caso. I diagnostici e le istruzioni per ripetere la verifica sono in [verifiche](verifiche/README.md).
-
-I commenti `TODO` o `STUB` sono segnalati nell'indice e indicano parti ancora da sviluppare. Non equivalgono automaticamente a un errore.
 
 ## Come è organizzato l'archivio
 
