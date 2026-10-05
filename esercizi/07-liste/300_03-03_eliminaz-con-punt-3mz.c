@@ -3,7 +3,11 @@
 //  eliminaz con punt 3mz
 //
 //  Created by Francesco Roscio Ricon on 03/03/26.
-// elimina tutti i blocchi di elementi pari
+// 
+//    Scrivere un programma in linguaggio C che elimini da una lista concatenata di interi tutti i blocchi costituiti da numeri pari.
+//    Un "blocco" è definito come una sequenza di uno o più nodi consecutivi contenenti valori pari. 
+//    La memoria dei nodi rimossi deve essere correttamente deallocata.
+//    punto bonus: utilizza un doppio puntatore al Nodo per eliminare un blocco alla volta tutto assieme permettendo una complessità O(n)
 
 #include <stdio.h>
 #include <stdlib.h>
