@@ -3,7 +3,8 @@
 //  conversine.farenheit
 //
 //  Created by Francesco Roscio Ricon on 24/09/25.
-//
+//  Scrivi un programma in linguaggio C che richieda all'utente di inserire un valore intero rappresentante una temperatura in gradi Fahrenheit.
+//  Il programma deve convertire tale valore in gradi Celsius e stampare a video il risultato esatto, comprensivo di decimali.
 
 #include <stdio.h>
 
