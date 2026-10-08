@@ -4,6 +4,45 @@
 //
 //  Created by Francesco Roscio Ricon on 09/02/26.
 //
+/*
+ * ESERCIZIO: Pulizia di una Lista di Liste (Filtro Catene CCTSF)
+ * 
+ * Sono date le seguenti strutture dati:
+ * - 'Lista' (Nodo): una lista concatenata in cui ogni nodo contiene una stringa 
+ *   allocata dinamicamente ('parola').
+ * - 'ListaDiListe' (NodoTesta): una lista concatenata in cui ogni nodo contiene 
+ *   a sua volta una 'Lista' (chiamata 'catena').
+ * 
+ * DEFINIZIONI:
+ * 1. Due stringhe si dicono "simili" se hanno la stessa esatta lunghezza e 
+ *    differiscono per al massimo 2 caratteri nello stesso indice.
+ * 2. Una catena (Lista) si definisce "CCTSF" se, per ogni coppia di nodi 
+ *    adiacenti al suo interno, le due parole contenute sono "simili". 
+ *    (Nota: una catena vuota o composta da un solo nodo è sempre considerata CCTSF).
+ * 
+ * RICHIESTA:
+ * Scrivere una funzione in C con la seguente firma:
+ * 
+ *      ListaDiListe pulisciNonCCTSF(ListaDiListe L);
+ * 
+ * La funzione riceve in input il puntatore alla testa di una ListaDiListe.
+ * Deve esplorare la struttura e RIMUOVERE dalla lista principale tutti i nodi 
+ * la cui 'catena' interna NON rispetta la proprietà CCTSF.
+ * 
+ * Gestione della memoria:
+ * Per ogni elemento rimosso, la funzione deve deallocare correttamente e 
+ * completamente la memoria ad esso associata (utilizzando la funzione free()).
+ * Questo include:
+ * - Le stringhe ('parola') allocate dinamicamente.
+ * - I nodi ('Nodo') della sotto-lista.
+ * - Il nodo ('NodoTesta') della lista principale.
+ * 
+ * La funzione deve restituire il puntatore alla testa della ListaDiListe 
+ * aggiornata, mantenendo intatto l'ordine delle catene valide superstiti.
+ * È consentito (e consigliato) l'uso di funzioni ausiliarie (es. per verificare 
+ * la similarità, per testare la proprietà CCTSF e per la distruzione delle liste).
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
