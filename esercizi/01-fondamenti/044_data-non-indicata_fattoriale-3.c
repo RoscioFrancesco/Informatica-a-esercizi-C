@@ -1,4 +1,24 @@
-
+/*
+ * ESERCIZIO: Calcolo del coefficiente binomiale
+ * 
+ * Scrivere un programma in linguaggio C che calcoli il coefficiente del k-esimo 
+ * termine dello sviluppo della potenza del binomio (a+b)^n.
+ * 
+ * Il programma deve:
+ * 1. Richiedere l'inserimento dell'esponente n.
+ * 2. Richiedere l'inserimento dell'indice k del termine desiderato.
+ * 3. Effettuare un controllo di validità degli input (mostrando errore se 
+ *    i valori non sono strettamente positivi, se n < k, o se k=0 o k=n).
+ * 4. Calcolare sequenzialmente tramite cicli iterativi:
+ *    - Il fattoriale di n (n!)
+ *    - Il fattoriale di k (k!)
+ *    - Il fattoriale di (n-k)!
+ * 5. Calcolare e stampare il risultato finale con la formula:
+ *    R = n! / (k! * (n-k)!)
+ * 
+ * Nota: non utilizzare funzioni esterne, ma svolgere i calcoli dei fattoriali
+ * all'interno del main. Gestire la pulizia del buffer di input.
+ */
 #include <stdio.h>
 int main() {
     int n, s, x, k, a, b, j, f, c, r;
