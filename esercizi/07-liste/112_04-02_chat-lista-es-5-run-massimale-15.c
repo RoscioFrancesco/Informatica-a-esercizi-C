@@ -4,6 +4,32 @@
 //
 //  Created by Francesco Roscio Ricon on 04/02/26.
 //
+/*
+ * ESERCIZIO: Eliminazione della sequenza (run) più lunga in una lista
+ * 
+ * Si consideri una lista concatenata in cui ogni nodo contiene un puntatore 
+ * a una stringa allocata dinamicamente. Definiamo "run" una sequenza massimale 
+ * di nodi adiacenti in cui tutte le stringhe iniziano con lo stesso carattere.
+ * 
+ * Scrivere una funzione (es. 'f' o 'eliminaRunPiuLunga') che riceva in 
+ * input il puntatore alla testa della lista e svolga i seguenti compiti:
+ * 
+ * 1. Esplorare la lista per individuare la "run" di lunghezza massima.
+ * 2. Rimuovere dalla lista tutti i nodi appartenenti a questa sequenza, 
+ *    ricollegando correttamente il nodo precedente all'inizio della run 
+ *    con il nodo successivo alla fine della run.
+ * 3. Deallocare correttamente (tramite free) la memoria occupata sia dai 
+ *    nodi eliminati che dalle relative stringhe in essi contenute.
+ * 4. Restituire il puntatore alla testa della lista aggiornata.
+ * 
+ * Note:
+ * - Prestare particolare attenzione al caso in cui la sequenza da eliminare 
+ *   si trovi all'inizio della lista (modifica della testa).
+ * - Se ci sono più sequenze di pari lunghezza massima, è sufficiente 
+ *   eliminarne una (la prima trovata).
+ * - È consentito l'uso di funzioni ausiliarie (es. per il calcolo della max
+ *   run o per la deallocazione dei nodi).
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
